@@ -55,12 +55,22 @@
                 </tr>
                 <tr>
                     <td class="auto-style3" colspan="2">
-                        <asp:Button ID="SaveButton" runat="server" Text="Save" />
+                        <asp:Button ID="SaveButton" runat="server" Text="Save" OnClick="SaveButton_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <asp:Button ID="EditButton" runat="server" Text="Edit" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="CancelButton" runat="server" Text="Cancel" />
+                        <asp:Button ID="CancelButton" runat="server" Text="Cancel" OnClick="CancelButton_Click" />
                     </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="Label1" runat="server" Text="Status"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>

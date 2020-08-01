@@ -38,8 +38,7 @@ namespace FRS
             string c = CityDropDownList.Text;
             string ba = BranchAddressTextBox.Text;
             string dobr = DateofBranchRegistrationTextBox.Text;
-
-            Register reg = new Register();
+            Branchdll reg = new Branchdll();
             
             string res = reg.Branchregistration(bc, bn, bh, g,s, c, ba, dobr);
             StatusLabel.Text = res;

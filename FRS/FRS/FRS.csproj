@@ -44,8 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="registration">
-      <HintPath>..\..\registration\registration\bin\Debug\registration.dll</HintPath>
+    <Reference Include="registration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Registration code\registration\registration\bin\Debug\registration.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -74,6 +75,7 @@
     <Content Include="about.html" />
     <Content Include="AddFaculty.aspx" />
     <Content Include="AddNewSubject.aspx" />
+    <Content Include="AddStudent.aspx" />
     <Content Include="AdminDashboard.aspx" />
     <Content Include="BatchRegistration.aspx" />
     <Content Include="blog-single.html" />
@@ -203,6 +205,13 @@
     </Compile>
     <Compile Include="AddNewSubject.aspx.designer.cs">
       <DependentUpon>AddNewSubject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent.aspx.cs">
+      <DependentUpon>AddStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddStudent.aspx.designer.cs">
+      <DependentUpon>AddStudent.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminDashboard.aspx.cs">
       <DependentUpon>AdminDashboard.aspx</DependentUpon>

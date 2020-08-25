@@ -130,7 +130,7 @@ namespace FRS
               */
             //string title = title;
             //string str= "saved";
-
+            string str = null;
             string ti = DateTime.Now.ToString();
            // string fn = strlist[0];//changes
             string CS = "server=DESKTOP-6RGINGV\\SQLEXPRESS;integrated security=true;database=frsdatabase";
@@ -138,7 +138,8 @@ namespace FRS
             {
                 try
                 {
-                    string q = "insert into faceattendance values('"+t+"', '"+ti+"', 'present')";
+                    string q = "insert into faceattendance1(email_id,datetime,attendance) values('"+t+"', '"+ti+"', 'present')";
+                   // string q = "insert into FaceAttendance values('" + t + "', '" + ti + "', 'present')";
                     //string q = "insert into faceattendance values('" + t + "', '" + ti + "', 'present','" + fn + "')";//changes
 
                     SqlCommand cmd = new SqlCommand(q, con);
@@ -146,14 +147,15 @@ namespace FRS
                     con.Open();
                     cmd.ExecuteNonQuery();
                     con.Close();
+                    str = "saved";
                 }
                 catch (Exception ee)
                 {
-
+                    str = ee.ToString();
                 }
             }
                     JavaScriptSerializer js = new JavaScriptSerializer();
-            Context.Response.Write(js.Serialize("saved"));
+            Context.Response.Write(js.Serialize(str));
         }
 
     }

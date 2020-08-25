@@ -415,3 +415,4 @@ E:\final\Facial Project\FRS\obj\Debug\FRS.csproj.CoreCompileInputs.cache
 E:\final\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 E:\final\Facial Project\FRS\obj\Debug\FRS.dll
 E:\final\Facial Project\FRS\obj\Debug\FRS.pdb
+E:\final\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache

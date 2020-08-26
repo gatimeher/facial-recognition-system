@@ -87,6 +87,12 @@ namespace FRS
                     string res = reg.Saveregistration(fn, add, cnum, em, g, pass, cpass, dob, dojoin, id, idnum, r);
                     StatusLabel.Text = res;
                 }
+                else if(RoleDropDownList.SelectedValue=="Admin")//Changes
+                {
+                    string res = reg.Saveregistration(fn,add, cnum, em, g, pass, cpass, dob, dojoin, id, idnum, r);
+                    StatusLabel.Text = res;
+
+                }
                 else
                 {
                     StatusLabel.Text = "User with this Name is not exists, please enter selected Name";

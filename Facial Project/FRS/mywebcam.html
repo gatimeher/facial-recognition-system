@@ -66,15 +66,17 @@
             //alert("hello");
 
             var data = canvas.toDataURL();
-            var Email_ID = $("#Email_ID").val();//to retrieve data from textbox
-            //alert(Email_ID);
+            var Full_Name = $("#Full_Name").val();//changes
+            //var Email_ID = $("#Email_ID").val();//to retrieve data from textbox
+           // alert(Full_Name);
             //using query to call asp.net file asynchronously from html page
             $.ajax({
                 type: "POST",
                 url: "savephoto.aspx",
                 data: {
                     photo: data,
-                    Email_ID: Email_ID
+                    // Email_ID: Email_ID
+                    Full_Name: Full_Name//changes
                 }
             }).done(function (o) {
                 alert("Photo Saved Successfully!");
@@ -92,7 +94,8 @@
     <br>
 
     <a class="d-flex align-items-center justify-content-center">
-        Enter Email  : <input type="text" name="Email_ID" id="Email_ID" />
+        <!---Enter Full Name  : <input type="text" name="Email_ID" id="Email_ID" />-->
+        Enter Full Name  : <input type="text" name="Full_Name" id="Full_Name" />
         <button id="btnSnap" onclick="takePhoto()">Snap Photo</button>
         <button id="btnSave" onclick="savePhoto()">Save Photo</button>
         <!--<button id="btnSave" onclick="homePage.aspx">Finish</button>-->

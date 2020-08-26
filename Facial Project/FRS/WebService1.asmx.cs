@@ -29,6 +29,7 @@ namespace FRS
         public int Salary { get; set; }
         */
         public string title { get; set; }
+       // public string email { get; set; }//changes for email
       //  public string name { get; set; }    //changes
 
     }
@@ -43,8 +44,9 @@ namespace FRS
         {
             SqlConnection con1 = new SqlConnection(@"Data Source=DESKTOP-6RGINGV\SQLEXPRESS;database=FRSdatabase;Integrated Security=True");
 
-             SqlCommand cmd1 = new SqlCommand("Select email_id,scan_photo from registerdb", con1);
-            //SqlCommand cmd1 = new SqlCommand("Select Full_Name,email_id,scan_photo from registerdb", con1); //changes
+            // SqlCommand cmd1 = new SqlCommand("Select email_id,scan_photo from registerdb", con1);
+            SqlCommand cmd1 = new SqlCommand("Select full_name,scan_photo from registerdb", con1); //changes
+            //SqlCommand cmd1 = new SqlCommand("Select email_id,full_name,scan_photo from registerdb", con1);//changes for email
             con1.Open();
             SqlDataReader dr1 = null;
             dr1 = cmd1.ExecuteReader();
@@ -53,7 +55,9 @@ namespace FRS
                 while (dr1.Read())
                 {
 
-                    string title = dr1["email_id"].ToString();
+                    //string title = dr1["email_id"].ToString();
+                    string title = dr1["full_name"].ToString();//changes
+                    //string tit = dr1["email_id"].ToString();//changes for email
                     title = title + ".jpg";
                     byte[] img = (byte[])dr1["scan_photo"];
                     var imgBlob = img; // Load the image binary array from the database
@@ -78,7 +82,10 @@ namespace FRS
             {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("select email_id from registerdb", con);
+                    //SqlCommand cmd = new SqlCommand("select email_id from registerdb", con);
+                    SqlCommand cmd = new SqlCommand("select full_name from registerdb", con);//changes
+                    //SqlCommand cmd = new SqlCommand("select email_id,full_name from registerdb", con);//changes for email
+
                     // cmd.CommandType = System.Data.CommandType.StoredProcedure;
                     con.Open();
 
@@ -97,7 +104,9 @@ namespace FRS
                         employee.Age = Convert.ToInt32(rdr["Age"]);
                         employee.Salary = Convert.ToInt32(rdr["Salary"]);
                         */
-                        employee.title = rdr["email_id"].ToString();
+                        //employee.title = rdr["email_id"].ToString();
+                        employee.title = rdr["full_name"].ToString();//changes
+                        //employee.email = rdr["email_id"].ToString();//changes for email
                         employeelist.Add(employee);
                     }
                 }
@@ -112,6 +121,7 @@ namespace FRS
         }
         [WebMethod]
         public void saveattendance(string title)
+       // public void saveattendance(string title,string email)//changes for email
         {
             // Taking a string 
             // String str = "Geeks, For Geeks";
@@ -123,6 +133,7 @@ namespace FRS
             String[] strlist = title.Split(spearator, count,
                    StringSplitOptions.RemoveEmptyEntries);
             string t = strlist[0];
+            //string em = strlist[1];//changes for email
             /*  foreach (String s in strlist)
               {
                   t = t + s;
@@ -138,8 +149,11 @@ namespace FRS
             {
                 try
                 {
-                    string q = "insert into faceattendance1(email_id,datetime,attendance) values('"+t+"', '"+ti+"', 'present')";
-                   // string q = "insert into FaceAttendance values('" + t + "', '" + ti + "', 'present')";
+                    // string q = "insert into faceattendance1(email_id,datetime,attendance) values('"+t+"', '"+ti+"', 'present')";
+                     string q = "insert into faceattendance1(full_name,datetime,attendance) values('" + t + "', '" + ti + "', 'present')";//changes
+                    //string q = "insert into faceattendance1(email_id,full_name,datetime,attendance) values('" + em + "','" + t + "', '" + ti + "', 'present')";//changes fo email
+
+                    // string q = "insert into FaceAttendance values('" + t + "', '" + ti + "', 'present')";
                     //string q = "insert into faceattendance values('" + t + "', '" + ti + "', 'present','" + fn + "')";//changes
 
                     SqlCommand cmd = new SqlCommand(q, con);

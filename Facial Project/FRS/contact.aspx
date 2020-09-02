@@ -78,7 +78,7 @@
 	        	<li class="nav-item"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item "><a href="about.aspx" class="nav-link">About</a></li>
 	        	<li class="nav-item "><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="staff.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item"><a href="teacher.aspx" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="blog.aspx" class="nav-link">Blog</a></li>
 	          <li class="nav-item active"><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>

@@ -139,7 +139,7 @@
                         <asp:ListItem>Python2020</asp:ListItem>
                         <asp:ListItem>C2020</asp:ListItem>
                         <asp:ListItem>CPlus2020</asp:ListItem>
-                        <asp:ListItem>MachLearning2020</asp:ListItem>
+                        <asp:ListItem>Communication Skill</asp:ListItem>
                     </asp:DropDownList>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="SubjectNameDropDownList" ErrorMessage="Subject Name can not be blank" CssClass="auto-style6"></asp:RequiredFieldValidator>
                         </td>

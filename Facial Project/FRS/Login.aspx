@@ -156,7 +156,7 @@
                     <td class="text-center" colspan="2">
             <font color ="black">
                             <strong>
-                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/registration.aspx">Don&#39;t have an account? Register here</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/RegisterForm.aspx">Don&#39;t have an account? Register here</asp:HyperLink>
                         </strong>
                         </td>
                 </tr>

@@ -14,14 +14,16 @@ namespace FRS
         protected void Page_Load(object sender, EventArgs e)
         {
             
-            
+           
             try
             {
                 //   string title = Request.Form["title"];
                 string cn = "data source=DESKTOP-6RGINGV\\SQLEXPRESS;integrated security=true;database=FRSDatabase";
                 SqlConnection con = new SqlConnection(cn);
                 // string qry = "insert into registerDB (Email_ID,Scan_Photo) values(@Email_ID, @Scan_Photo)";
-                string qry = "update registerdb set scan_photo=@Scan_Photo where email_id=@Email_ID";
+                  //string qry = "update registerdb set scan_photo=@Scan_Photo where email_id=@Email_ID";//Original
+                string qry = "update registerDB set scan_photo=@Scan_Photo where full_name=@Full_Name";//Changes
+                //string qry = "update registerDB set scan_photo=@Scan_Photo where user_id=@User_ID";
                 SqlCommand cmd = new SqlCommand(qry, con);
                 // create Parameters
                 
@@ -34,7 +36,9 @@ namespace FRS
                 byte[] data = Convert.FromBase64String(source);
                 photoParam.Value = data;
                 cmd.Parameters.Add(photoParam);
-                cmd.Parameters.AddWithValue("@Email_ID", Request.Form["Email_ID"]);
+                cmd.Parameters.AddWithValue("@Full_Name", Request.Form["Full_Name"]);//changes
+
+                 //cmd.Parameters.AddWithValue("@Email_ID", Request.Form["Email_ID"]);
                 //Open connection and execute insert query.
                 con.Open();
                 cmd.ExecuteNonQuery();

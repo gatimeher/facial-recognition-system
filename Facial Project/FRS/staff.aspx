@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="courses.aspx.cs" Inherits="FRS.courses" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="staff.aspx.cs" Inherits="FRS.staff" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-     <title>M.K. Placement And Education Services</title>
+    <title>M.K. Placement And Education Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,8 +27,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
-         <div class="bg-top navbar-light">
+                     <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
@@ -76,148 +75,145 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.aspx" class="nav-link">About</a></li>
-	        	<li class="nav-item active"><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="staff.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item "><a href="about.aspx" class="nav-link">About</a></li>
+	        	<li class="nav-item "><a href="courses.aspx" class="nav-link">Courses</a></li>
+	        	<li class="nav-item active"><a href="staff.aspx" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="blog.aspx" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.aspx" class="nav-link">Contact</a></li>
+	          <li class="nav-item "><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
         </form>
 	    </div>
 	  </nav>
     <!-- END nav -->
-    
-  
-   
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Courses</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="homePage.aspx">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Courses <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-2 bread">Certified Teacher</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="homePage.aspx">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Teacher <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
-    </section>
+    </section>    
 
-             
-    <section class="ftco-section">
+                          <section class="ftco-section bg-light">
 			<div class="container-fluid px-4">
 				<div class="row">
-
-
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/c.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="Login.aspx">C</a></h3>
-							<p>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/Mr.gati.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr.Gati Meher</h3>
+								<span class="position mb-2">Teacher</span>
+								<div class="faded">
+									<p>Skilled in all phases of the software development lifecycle with expertise in translating business requirements into technical solutions and fanatical about quality, usability, security and scalability.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/GatiMeher?s=20"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/gatimeher"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/gatimeher/?hl=en"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
 						</div>
-					</div>
-
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/cpp.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="Login.aspx">C++</a></h3>
-							<p>C++ is a programming language developed by Bjarne Stroustrup in 1979 at Bell Labs. C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features. It is a superset of C, and that virtually any legal C program is a legal C++ program.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-
-					<div class="col-md-3 course ftco-animate
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/.nettech.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>8 Years</span>
-							</p>
-							<h3><a href="Login.aspx">.NET</a></h3>
-							<p>NET is the Microsoft Web services strategy to connect information, people, systems, and devices through software. Integrated across the Microsoft platform, . NET technology provides the ability to quickly build, deploy, manage, and use connected, security-enhanced solutions with Web services. .</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-
-
-					<div class="col-md-3 course ftco-animate">
-							<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/Python.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="Login.aspx">Python</a></h3>
-							<p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. ... Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/git.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>10 Years</span>
-							</p>
-							<h3><a href="Login.aspx">git</a></h3>
-							<p>Git (/ɡɪt/) is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/springBoot.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>10 Years</span>
-							</p>
-							<h3><a href="Login.aspx">Spring Boot</a></h3>
-							<p>Spring Boot is an open source Java-based framework used to create a micro Service. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/MangoDB.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>10 Years</span>
-							</p>
-							<h3><a href="Login.aspx">MangoDB</a></h3>
-							<p>MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. </p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
+					</div>                  
 					
-				</div>
-			</div>
-		</section>  
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/MR.Ashish.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr.Ashish Gajbhiyer</h3>
+								<span class="position mb-2">Counselor</span>
+								<div class="faded">
+									<p>I am an Counselor , Entrepreneur, Motivational speaker, Social worker but apart from that, pretty simple and sorted person and I believe in hardworking with smart work.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/ashish.gajbhiye.14"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/ashish_mkpes/?hl=en"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/DivyaJain.png);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Miss.Divya Jain</h3>
+								<span class="position mb-2">Teacher (Communication Skills)</span>
+								<div class="faded">
+									<p>I am adept in handling responsibilities to foster change across recruitment, business strategies, t employee engagement with shades of an individual contributor and a team manager.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/Mr.MujahidKhan.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr. Mujahid Khan</h3>
+								<span class="position mb-2">Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/mujahid.khan.148553"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+                    
+					 <div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/Mr.roshan.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr.Roshan Thakur</h3>
+								<span class="position mb-2">Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious hardworking, dedicated towards work.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+                  
+   </section>
+
+
+
     </form>
-   
-		
+
+    	
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -278,8 +274,8 @@ Amravati Road Nagpur-440010</span></li>
         </div>
       </div>
     </footer>
-    
-    
+  
+	
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
@@ -299,6 +295,9 @@ Amravati Road Nagpur-440010</span></li>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+
+
 
 </body>
 </html>

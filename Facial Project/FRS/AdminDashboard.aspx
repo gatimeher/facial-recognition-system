@@ -80,14 +80,9 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
                 <li class="nav-item active"><a href="AdminDashboard.aspx" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item "><a href="AddStudent.aspx" class="nav-link pl-0">Student Details</a></li>
-	        	<!--<li class="nav-item"><a href="UpdateStudentRecord.aspx" class="nav-link">Update Student Record</a></li>-->
-	        	<!--<li class="nav-item"><a href="GenerateStudentAttendanceReport.aspx" class="nav-link">Genrate Student Attendance Report</a></li>-->
-	        	<li class="nav-item"><a href="AddFaculty.aspx" class="nav-link">Faculty Details</a></li>
-	        	<!--<li class="nav-item"><a href="UpdateFacultyRecord.aspx" class="nav-link">Update Faculty Record</a></li>-->
-	          <li class="nav-item"><a href="BatchRegistration.aspx" class="nav-link">Batch Details</a></li>
-                <!--<li class="nav-item"><a href="UpdateBatch.aspx" class="nav-link">Update Batch Details</a></li>
-                <li class="nav-item"><a href="GenrateBatchWiseAttendance.aspx" class="nav-link">Generate Batch Wise Report</a></li>-->
+	        	<li class="nav-item "><a href="AddStudent.aspx" class="nav-link pl-0">Student Details</a></li>	        
+	        	<li class="nav-item"><a href="AddFaculty.aspx" class="nav-link">Faculty Details</a></li>	        	
+	          <li class="nav-item"><a href="BatchRegistration.aspx" class="nav-link">Batch Details</a></li>                
                 <li class="nav-item"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
                 <li class="nav-item"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a></li>
                  <li class="nav-item"><a href="FaceAttendanceReport.aspx" class="nav-link">Show Face Attendance Report</a></li>

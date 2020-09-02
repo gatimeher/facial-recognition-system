@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="courses.aspx.cs" Inherits="FRS.courses" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="blog.aspx.cs" Inherits="FRS.blog" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-     <title>M.K. Placement And Education Services</title>
+    <title>M.K. Placement And Education Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,8 +27,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
-         <div class="bg-top navbar-light">
+                     <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
@@ -76,148 +75,141 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.aspx" class="nav-link">About</a></li>
-	        	<li class="nav-item active"><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="staff.aspx" class="nav-link">Staff</a></li>
-	        	<li class="nav-item"><a href="blog.aspx" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.aspx" class="nav-link">Contact</a></li>
+	        	<li class="nav-item "><a href="about.aspx" class="nav-link">About</a></li>
+	        	<li class="nav-item "><a href="courses.aspx" class="nav-link">Courses</a></li>
+	        	<li class="nav-item "><a href="staff.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item active"><a href="blog.aspx" class="nav-link">Blog</a></li>
+	          <li class="nav-item "><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
         </form>
 	    </div>
 	  </nav>
     <!-- END nav -->
-    
-  
-   
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+
+                         <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Courses</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="homePage.aspx">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Courses <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-2 bread">Blog</h1>
+             <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="blog.aspx">Blog </p>
           </div>
         </div>
       </div>
     </section>
 
-             
-    <section class="ftco-section">
-			<div class="container-fluid px-4">
+                         <section class="ftco-section bg-light">
+			<div class="container">
 				<div class="row">
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/Indian-college-students-new-c.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">26</span>
+                  <span class="mos">June</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">College Infrastructure</a></h3>
+                <p>The academic experience with a good infrastructure and excellent faculty at M.K. Placement have endured me with lifelong 
+                    confidence. The exceptional programs and teaching methodologies backed by practical skills and industry interface have given
+                    me the confidence to pursue my career ahead. Moreover, the friendly attitude of the professors and their willingness to always
+                    offer a helping hand has made me feel like a family. Though being from a non-IT branch I feel that I am surrounded by good hands 
+                    and I would like to thank the entire team.</p>
+               
+              </div>
+            </div>
+          </div>
+
+                   
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/college-edu.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">20</span>
+                  <span class="mos">July</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">Academic Information</a></h3>
+                <p>First of all I would like to thank MK Placement & Education Services. My experience in MK Placement is that, when I came to know 
+                    about MK Placement & Education Services, honestly I didn't have much idea at that time and was looking for a job. So I thought it
+                    would be a better option to join here and get some knowledge about IT software and interviews, which would be a big thing for me. 
+                    Then I was assured by the staff from the Institute and joined. From day one I felt a different energetic atmosphere in the class 
+                    room. And about the staff all are well educated, trained and also very much friendly to everyone, as a student which helped me a
+                    lot.</p>
+              </div>
+            </div>
+          </div>
+
+                    <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/student759.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">30</span>
+                  <span class="mos">July</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">Skills To Develop Student Memory</a></h3>
+                <p> They never shown any irritation even though I was asking same things repeatedly, which separates MK placement &
+                    Education Services from other training Institutes. The main thing is that all the syllabus covered up in a proper manner, so that
+                    a student can understand each things about the software. And thanks for providing some important seminar which helped me a lot to 
+                    crack an interview. Thank you MK Placement for making my career.
+              </div>
+            </div>
+          </div>
+                    
+                   
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/college-student.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">2</span>
+                  <span class="mos">August</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">Student Obstacle</a></h3>
+                <p>Let me start with my educational background as I am from Non-IT,so everyone out there in market has the fear of how to go in 
+                    IT sector(who are from Non-IT sector) and for the students like us don't know how to tackle the situation but here comes in
+                    picture the MK Placement And Education Services.</p>
+              </div>
+            </div>
+          </div>
+
+                    
+                   
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/teachers--621x414.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">15</span>
+                  <span class="mos">August</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">The Teaching Methodology</a></h3>
+                <p>
+                    The teaching methodology and enough practice on the practicals is focused.Moreover,the friendly attitude of the faculty and always
+                    ready to help has made me feel like a family and it has endured me with a lot of confidence in life. I would like to thank the 
+                    entire team of the MK Placements And Education Services.</p>
+              </div>
+            </div>
+          </div>
 
 
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/c.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="Login.aspx">C</a></h3>
-							<p>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
+</section>
 
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/cpp.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="Login.aspx">C++</a></h3>
-							<p>C++ is a programming language developed by Bjarne Stroustrup in 1979 at Bell Labs. C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features. It is a superset of C, and that virtually any legal C program is a legal C++ program.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-
-					<div class="col-md-3 course ftco-animate
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/.nettech.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>8 Years</span>
-							</p>
-							<h3><a href="Login.aspx">.NET</a></h3>
-							<p>NET is the Microsoft Web services strategy to connect information, people, systems, and devices through software. Integrated across the Microsoft platform, . NET technology provides the ability to quickly build, deploy, manage, and use connected, security-enhanced solutions with Web services. .</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-
-
-					<div class="col-md-3 course ftco-animate">
-							<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/Python.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="Login.aspx">Python</a></h3>
-							<p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. ... Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/git.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>10 Years</span>
-							</p>
-							<h3><a href="Login.aspx">git</a></h3>
-							<p>Git (/ɡɪt/) is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/springBoot.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>10 Years</span>
-							</p>
-							<h3><a href="Login.aspx">Spring Boot</a></h3>
-							<p>Spring Boot is an open source Java-based framework used to create a micro Service. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/MangoDB.jpg);"></div></a>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>10 Years</span>
-							</p>
-							<h3><a href="Login.aspx">MangoDB</a></h3>
-							<p>MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. </p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</section>  
     </form>
-   
-		
+
+	
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -278,8 +270,8 @@ Amravati Road Nagpur-440010</span></li>
         </div>
       </div>
     </footer>
-    
-    
+  
+	
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
@@ -299,6 +291,9 @@ Amravati Road Nagpur-440010</span></li>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+
+
 
 </body>
 </html>

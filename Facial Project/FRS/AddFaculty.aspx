@@ -29,7 +29,7 @@
             width: 60%;
         }
         .auto-style2 {
-            width: 356px;
+            width: 401px;
             text-align: left;
         }
         .auto-style5 {
@@ -198,6 +198,20 @@ body {
                         <asp:ListItem>MachLearning2020</asp:ListItem>
                     </asp:DropDownList>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ControlToValidate="BatchCodeDropDownList" ErrorMessage="Please select Batch for assign to Faculty" CssClass="auto-style8"></asp:RequiredFieldValidator>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style7">
+                            &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Email_Id</td>
+                    <td class="auto-style7">
+                            <asp:TextBox ID="TextBox1" runat="server" Width="160px"></asp:TextBox>
+&nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox1" CssClass="auto-style8" ErrorMessage="Please Enter Email in corect Formate" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ControlToValidate="TextBox1" CssClass="auto-style8" ErrorMessage="Email id can not be blank"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>

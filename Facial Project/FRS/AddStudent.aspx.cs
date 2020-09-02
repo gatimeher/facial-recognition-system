@@ -17,6 +17,7 @@ namespace FRS
         AddStudentdll ob = new AddStudentdll();
         protected void SaveButton_Click(object sender, EventArgs e)
         {
+           // AddStudentdll obj = new AddStudentdll();
             string sn = StudentNameTextBox.Text;
             string add = AddressTextBox.Text;
             string ph = PhoneNumberTextBox.Text;
@@ -24,19 +25,43 @@ namespace FRS
             if (MaleRadioButton.Checked)
             {
                 gen = MaleRadioButton.Text;
-                FemaleRadioButton.Visible = false;
-                OtherRadioButton.Visible = false;
+                //FemaleRadioButton.Visible = false;
+                //OtherRadioButton.Visible = false;
             }
             else if (FemaleRadioButton.Visible)
             {
                 gen = FemaleRadioButton.Text;
-                MaleRadioButton.Visible = false;
-                OtherRadioButton.Visible = false;
+                //MaleRadioButton.Visible = false;
+                //OtherRadioButton.Visible = false;
             }
             string bc = BatchCodeDropDownList.Text;
             string em = TextBox1.Text;
-            string res = ob.saveStudent(sn, add, ph, gen,bc,em);
-            StatusLabel.Text = res;
+            string res1 = ob.checkemailid(em);
+            if(res1 == "false")
+            {
+               
+                res1 = ob.saveStudent(sn, add, ph, gen, bc, em);
+                StatusLabel.Text = res1;
+            }
+            else
+            {
+                StatusLabel.Text = "Student with this name already exists!";
+            }
+            //  res = ob.saveStudent(sn, add, ph, gen,bc,em);
+            //StatusLabel.Text = res;
+            StudentNameTextBox.Text = string.Empty;
+            AddressTextBox.Text = "";
+            PhoneNumberTextBox.Text = "";
+            TextBox1.Text = "";
+            BatchCodeDropDownList.ClearSelection();
+            
+            
+
+            
+          //  MaleRadioButton.Checked = 
+            //FemaleRadioButton.Checked = false;
+            //OtherRadioButton.Checked = false;
+
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)

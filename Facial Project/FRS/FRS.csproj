@@ -204,9 +204,9 @@
     <Content Include="RegisterForm.aspx" />
     <Content Include="savephoto.aspx" />
     <Content Include="ScanFace.aspx" />
-    <Content Include="staff.aspx" />
     <Content Include="StudentDashboard.aspx" />
-    <Content Include="staff.html" />
+    <Content Include="teacher.aspx" />
+    <Content Include="teacher.html" />
     <Content Include="UpdateBatch.aspx" />
     <Content Include="UpdateBranch.aspx" />
     <Content Include="UpdateFacultyRecord.aspx" />
@@ -416,19 +416,19 @@
     <Compile Include="ScanFace.aspx.designer.cs">
       <DependentUpon>ScanFace.aspx</DependentUpon>
     </Compile>
-    <Compile Include="staff.aspx.cs">
-      <DependentUpon>staff.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="staff.aspx.designer.cs">
-      <DependentUpon>staff.aspx</DependentUpon>
-    </Compile>
     <Compile Include="StudentDashboard.aspx.cs">
       <DependentUpon>StudentDashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentDashboard.aspx.designer.cs">
       <DependentUpon>StudentDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher.aspx.cs">
+      <DependentUpon>teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher.aspx.designer.cs">
+      <DependentUpon>teacher.aspx</DependentUpon>
     </Compile>
     <Compile Include="UpdateBatch.aspx.cs">
       <DependentUpon>UpdateBatch.aspx</DependentUpon>

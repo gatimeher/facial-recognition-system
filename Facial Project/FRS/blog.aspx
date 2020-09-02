@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>M.K. Placement And Education Services</title>
+     <title>M.K. Placement And Education Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,7 +27,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-                     <div class="bg-top navbar-light">
+                             <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
@@ -77,7 +77,7 @@
 	        	<li class="nav-item"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item "><a href="about.aspx" class="nav-link">About</a></li>
 	        	<li class="nav-item "><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item "><a href="staff.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item "><a href="teacher.aspx" class="nav-link">Staff</a></li>
 	        	<li class="nav-item active"><a href="blog.aspx" class="nav-link">Blog</a></li>
 	          <li class="nav-item "><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>

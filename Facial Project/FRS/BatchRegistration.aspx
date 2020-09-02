@@ -130,7 +130,7 @@
                         <asp:ListItem>Python2020</asp:ListItem>
                         <asp:ListItem>C2020</asp:ListItem>
                         <asp:ListItem>CPlus2020</asp:ListItem>
-                        <asp:ListItem>MachLearning2020</asp:ListItem>
+                        <asp:ListItem>GitHub</asp:ListItem>
                     </asp:DropDownList>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="BatchCodeDropDownList" CssClass="auto-style4" ErrorMessage="Select Batch Code"></asp:RequiredFieldValidator>
                 </td>
@@ -178,9 +178,9 @@
                 <td>
                     <asp:DropDownList ID="BatchTimeDropDownList" runat="server" Height="23px" Width="175px">
                         <asp:ListItem>Select</asp:ListItem>
-                        <asp:ListItem>9.00 am - 11.00 am</asp:ListItem>
-                        <asp:ListItem>11.00 am - 01.00 pm</asp:ListItem>
-                        <asp:ListItem>02.00 pm - 04.00 pm</asp:ListItem>
+                        <asp:ListItem>10.00 am - 12.00 pm</asp:ListItem>
+                        <asp:ListItem>12.00 pm - 02.00 pm</asp:ListItem>
+                        <asp:ListItem>04.00 pm - 05.00 pm</asp:ListItem>
                     </asp:DropDownList>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="BatchTimeDropDownList" CssClass="auto-style4" ErrorMessage="Select Batch Time"></asp:RequiredFieldValidator>
                 </td>

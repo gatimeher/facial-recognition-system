@@ -56,14 +56,14 @@ namespace FRS
             if (MaleRadioButton.Checked)
             {
                 g = MaleRadioButton.Text;
-                FemaleRadioButton.Visible = false;
-                OtherRadioButton.Visible = false;
+                //FemaleRadioButton.Visible = false;
+                //OtherRadioButton.Visible = false;
             }
             else if (FemaleRadioButton.Visible)
             {
                 g = FemaleRadioButton.Text;
-                MaleRadioButton.Visible = false;
-                OtherRadioButton.Visible = false;
+                //MaleRadioButton.Visible = false;
+                //OtherRadioButton.Visible = false;
             }
 
             string pass = PasswordTextBox.Text;

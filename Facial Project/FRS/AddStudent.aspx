@@ -63,6 +63,7 @@
 
          .auto-style9 {
              margin-left: 83px;
+             margin-top: 0;
          }
 
          </style>
@@ -207,7 +208,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email Id</td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style9" TextMode="Email" Width="158px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style9" TextMode="Email" Width="179px" Height="24px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>

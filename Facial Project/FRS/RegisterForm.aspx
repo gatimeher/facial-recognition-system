@@ -155,6 +155,7 @@ input {
                         <asp:ListItem>Select</asp:ListItem>
                         <asp:ListItem>Faculty</asp:ListItem>
                         <asp:ListItem>Student</asp:ListItem>
+                        <asp:ListItem>Admin</asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>

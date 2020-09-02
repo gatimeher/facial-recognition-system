@@ -19,3 +19,8 @@ E:\final\Facial Project\registration\registration\obj\Debug\registration.csproj.
 E:\final\Facial Project\registration\registration\obj\Debug\registration.dll
 E:\final\Facial Project\registration\registration\obj\Debug\registration.pdb
 E:\final\Facial Project\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache
+C:\RashiProj\Facial Project\registration\registration\bin\Debug\registration.dll
+C:\RashiProj\Facial Project\registration\registration\bin\Debug\registration.pdb
+C:\RashiProj\Facial Project\registration\registration\obj\Debug\registration.csproj.CoreCompileInputs.cache
+C:\RashiProj\Facial Project\registration\registration\obj\Debug\registration.dll
+C:\RashiProj\Facial Project\registration\registration\obj\Debug\registration.pdb

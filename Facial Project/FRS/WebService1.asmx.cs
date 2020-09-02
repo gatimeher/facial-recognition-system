@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Services;
-using System.Web.Script.Serialization;
-using System.IO;
 using System.Data.SqlClient;
+using System.Web.Script.Serialization;
+using System.Web.Services;
 
 namespace FRS
 {
@@ -29,8 +26,8 @@ namespace FRS
         public int Salary { get; set; }
         */
         public string title { get; set; }
-       // public string email { get; set; }//changes for email
-      //  public string name { get; set; }    //changes
+        // public string email { get; set; }//changes for email
+        //  public string name { get; set; }    //changes
 
     }
 
@@ -63,9 +60,9 @@ namespace FRS
                     var imgBlob = img; // Load the image binary array from the database
                                        //File.WriteAllBytes(Server.MapPath("data/file.jpg"), imgBlob);
 
-                   // string name = dr1["Full_Name"].ToString();          //changes
+                    // string name = dr1["Full_Name"].ToString();          //changes
 
-                     System.IO.File.WriteAllBytes("C:/xampp/htdocs/fcjm/img/" + title, imgBlob);
+                    System.IO.File.WriteAllBytes("C:/xampp/htdocs/fcjm/img/" + title, imgBlob);
                     //System.IO.File.WriteAllBytes("C:/xampp/htdocs/fcjm/img/" + title, imgBlob,name);//chenges
                     string base64string = Convert.ToBase64String(img, 0, img.Length);
 
@@ -121,11 +118,11 @@ namespace FRS
         }
         [WebMethod]
         public void saveattendance(string title)
-       // public void saveattendance(string title,string email)//changes for email
+        // public void saveattendance(string title,string email)//changes for email
         {
             // Taking a string 
             // String str = "Geeks, For Geeks";
-            
+
             String[] spearator = { " (" };
             Int32 count = 2;
 
@@ -143,32 +140,70 @@ namespace FRS
             //string str= "saved";
             string str = null;
             string ti = DateTime.Now.ToString();
-           // string fn = strlist[0];//changes
+            string em = null;
+            // string fn = strlist[0];//changes
             string CS = "server=DESKTOP-6RGINGV\\SQLEXPRESS;integrated security=true;database=frsdatabase";
-            using (SqlConnection con = new SqlConnection(CS))
+            SqlConnection con1 = new SqlConnection(CS);
+            string st = "select email_id from registerdb where full_name='" + t + "'";
+            con1.Open();
+
+            SqlCommand comma = new SqlCommand(st, con1);
+            SqlDataReader dr1 = comma.ExecuteReader();
+
+            while (dr1.Read())
             {
-                try
-                {
-                    // string q = "insert into faceattendance1(email_id,datetime,attendance) values('"+t+"', '"+ti+"', 'present')";
-                     string q = "insert into faceattendance1(full_name,datetime,attendance) values('" + t + "', '" + ti + "', 'present')";//changes
-                    //string q = "insert into faceattendance1(email_id,full_name,datetime,attendance) values('" + em + "','" + t + "', '" + ti + "', 'present')";//changes fo email
+                em = dr1[0].ToString();
+            }
+            dr1.Close();
+            con1.Close();
 
-                    // string q = "insert into FaceAttendance values('" + t + "', '" + ti + "', 'present')";
-                    //string q = "insert into faceattendance values('" + t + "', '" + ti + "', 'present','" + fn + "')";//changes
 
-                    SqlCommand cmd = new SqlCommand(q, con);
-                    // cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    con.Open();
-                    cmd.ExecuteNonQuery();
-                    con.Close();
-                    str = "saved";
-                }
-                catch (Exception ee)
+            string st1 = "select full_name from faceattendance1 where email_id='" + em + "' ";
+            con1.Open();
+            SqlCommand comma1 = new SqlCommand(st1, con1);
+            SqlDataReader dr11 = comma1.ExecuteReader();
+
+            int flag = 0;
+            while (dr11.Read())
+            {
+                flag = 1;
+            }
+            dr11.Close();
+            con1.Close();
+            //string em = null;
+            if (flag == 1)
+            {
+                str = "attendance for this student already taken";
+            }
+            else
+            {
+
+
+                using (SqlConnection con = new SqlConnection(CS))
                 {
-                    str = ee.ToString();
+                    try
+                    {
+                        // string q = "insert into faceattendance1(email_id,datetime,attendance) values('"+t+"', '"+ti+"', 'present')";
+                        //  string q = "insert into faceattendance1(full_name,datetime,attendance) values('" + t + "', '" + ti + "', 'present')";//changes
+                        string q = "insert into faceattendance1(email_id,full_name,datetime,attendance) values('" + em + "','" + t + "', '" + ti + "', 'present')";//changes fo email
+
+                        // string q = "insert into FaceAttendance values('" + t + "', '" + ti + "', 'present')";
+                        //string q = "insert into faceattendance values('" + t + "', '" + ti + "', 'present','" + fn + "')";//changes
+
+                        SqlCommand cmd = new SqlCommand(q, con);
+                        // cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        con.Open();
+                        cmd.ExecuteNonQuery();
+                        con.Close();
+                        str = "attendance marked successfully";
+                    }
+                    catch (Exception ee)
+                    {
+                        str = ee.ToString();
+                    }
                 }
             }
-                    JavaScriptSerializer js = new JavaScriptSerializer();
+            JavaScriptSerializer js = new JavaScriptSerializer();
             Context.Response.Write(js.Serialize(str));
         }
 

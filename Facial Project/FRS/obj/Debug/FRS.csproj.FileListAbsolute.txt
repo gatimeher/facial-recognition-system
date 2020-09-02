@@ -476,4 +476,3 @@ C:\RashiProj\Facial Project\FRS\obj\Debug\FRS.csproj.CoreCompileInputs.cache
 C:\RashiProj\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 C:\RashiProj\Facial Project\FRS\obj\Debug\FRS.dll
 C:\RashiProj\Facial Project\FRS\obj\Debug\FRS.pdb
-C:\RashiProj\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache

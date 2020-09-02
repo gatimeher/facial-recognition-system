@@ -22,6 +22,8 @@ namespace FRS
 
             string res = sb.saveSub(na, di);
             StatusLabel.Text = res;
+            SubjectNameDropDownList.ClearSelection();
+            DescriptionTextBox.Text = "";
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)

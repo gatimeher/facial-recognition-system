@@ -23,6 +23,43 @@ namespace registration
         {
             con = new SqlConnection("data source=DESKTOP-6RGINGV\\SQLEXPRESS;integrated security=true;database=FRSDatabase;");
         }
+
+
+        string res = " ";
+
+        public string checkemailid(string em)
+        {
+            //string result = "";
+
+            try
+            {
+                con.Open();
+                string qr = "select count(*) from AddStudentDB where Email_ID='" + em + "'";
+                SqlCommand command = new SqlCommand(qr, con);
+                //the query will return a single calculated value
+                // so for this use executescalar method of sqlcommand class
+                int r = Convert.ToInt32(command.ExecuteScalar());
+                if (r == 1)
+                {
+                    res = "true";
+                }
+                else
+                {
+                    res = "false";
+                }
+            }
+            catch (Exception ee)
+            {
+                res = ee.ToString();
+            }
+            finally
+            {
+                con.Close();
+            }
+            return res;
+        }
+
+
         public string saveStudent(string sn, string add, string ph, string gen,string bc, string eml)
         {
             studentname = sn;
@@ -39,7 +76,8 @@ namespace registration
                 string qr = "insert into AddStudentDB(Student_Name,Address,Phone_Number,Gender,Batch_Code,Email_ID) values('" + studentname + "','" + address + "','" + phone + "','" + gender + "','" + batchcode + "','" + email + "')";
                 SqlCommand command = new SqlCommand(qr, con);
                 command.ExecuteNonQuery();
-                result = "Student Added Successfully";
+                result = "Student Added Successfully!";
+              
             }
             catch (Exception ee)
             {

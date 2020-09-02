@@ -11,7 +11,7 @@ namespace FRS
 {
 
 
-    public partial class staff
+    public partial class teacher
     {
 
         /// <summary>

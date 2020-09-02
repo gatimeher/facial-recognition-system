@@ -1,0 +1,21 @@
+D:\projects\MK Project\registration\registration\bin\Debug\registration.dll
+D:\projects\MK Project\registration\registration\bin\Debug\registration.pdb
+D:\projects\MK Project\registration\registration\obj\Debug\registration.dll
+D:\projects\MK Project\registration\registration\obj\Debug\registration.pdb
+D:\projects\MK Project\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache
+D:\projects\MK Project\recycle bin\registration\registration\bin\Debug\registration.dll
+D:\projects\MK Project\recycle bin\registration\registration\bin\Debug\registration.pdb
+D:\projects\MK Project\recycle bin\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache
+D:\projects\MK Project\recycle bin\registration\registration\obj\Debug\registration.dll
+D:\projects\MK Project\recycle bin\registration\registration\obj\Debug\registration.pdb
+D:\projects\MK Project\FRS\registration\registration\bin\Debug\registration.dll
+D:\projects\MK Project\FRS\registration\registration\bin\Debug\registration.pdb
+D:\projects\MK Project\FRS\registration\registration\obj\Debug\registration.dll
+D:\projects\MK Project\FRS\registration\registration\obj\Debug\registration.pdb
+D:\projects\MK Project\FRS\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache
+E:\final\Facial Project\registration\registration\bin\Debug\registration.dll
+E:\final\Facial Project\registration\registration\bin\Debug\registration.pdb
+E:\final\Facial Project\registration\registration\obj\Debug\registration.csproj.CoreCompileInputs.cache
+E:\final\Facial Project\registration\registration\obj\Debug\registration.dll
+E:\final\Facial Project\registration\registration\obj\Debug\registration.pdb
+E:\final\Facial Project\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache

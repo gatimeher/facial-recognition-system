@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="teacher.aspx.cs" Inherits="FRS.teacher" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="staff.aspx.cs" Inherits="FRS.staff" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-     <title>M.K. Placement And Education Services</title>
+    <title>M.K. Placement And Education Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,7 +27,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-       <div class="bg-top navbar-light">
+                     <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
@@ -77,7 +77,7 @@
 	        	<li class="nav-item"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item "><a href="about.aspx" class="nav-link">About</a></li>
 	        	<li class="nav-item "><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item active"><a href="teacher.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item active"><a href="staff.aspx" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="blog.aspx" class="nav-link">Blog</a></li>
 	          <li class="nav-item "><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>
@@ -109,7 +109,7 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Mr.Gati Meher</h3>
-								<span class="position mb-2">Senior Lead - Engineering at GlobalLogic India</span>
+								<span class="position mb-2">Teacher</span>
 								<div class="faded">
 									<p>Skilled in all phases of the software development lifecycle with expertise in translating business requirements into technical solutions and fanatical about quality, usability, security and scalability.</p>
 									<ul class="ftco-social text-center">
@@ -130,7 +130,7 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Mr.Ashish Gajbhiyer</h3>
-								<span class="position mb-2">Director at MK Placement and Education Services</span>
+								<span class="position mb-2">Counselor</span>
 								<div class="faded">
 									<p>I am an Counselor , Entrepreneur, Motivational speaker, Social worker but apart from that, pretty simple and sorted person and I believe in hardworking with smart work.</p>
 									<ul class="ftco-social text-center">
@@ -151,7 +151,7 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Miss.Divya Jain</h3>
-								<span class="position mb-2">Head OF Department at MK Placement and Education Services</span>
+								<span class="position mb-2">Teacher (Communication Skills)</span>
 								<div class="faded">
 									<p>I am adept in handling responsibilities to foster change across recruitment, business strategies, t employee engagement with shades of an individual contributor and a team manager.</p>
 									<ul class="ftco-social text-center">
@@ -172,7 +172,7 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Mr. Mujahid Khan</h3>
-								<span class="position mb-2">Worked at BS Info Tech and MK Placement and Education Services</span>
+								<span class="position mb-2">Teacher</span>
 								<div class="faded">
 									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
 									<ul class="ftco-social text-center">
@@ -193,7 +193,7 @@
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Mr.Roshan Thakur</h3>
-								<span class="position mb-2">Work at MK Placement and Education Services</span>
+								<span class="position mb-2">Teacher</span>
 								<div class="faded">
 									<p>I am an ambitious hardworking, dedicated towards work.</p>
 									<ul class="ftco-social text-center">

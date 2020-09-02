@@ -109,106 +109,99 @@
 
 
 					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/c.jpg);"></div></a>
+						<div class="img" style="background-image: url(images/c.jpg);"></div>
 						<div class="text pt-4">
 							<p class="meta d-flex">
 								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
 								<span><i class="icon-table mr-2"></i>10 seats</span>
 								<span><i class="icon-calendar mr-2"></i>4 Years</span>
 							</p>
-							<h3><a href="Login.aspx">C</a></h3>
+							<h3><a href="#">C</a></h3>
 							<p>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 					</div>
 
 					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/cpp.jpg);"></div></a>
+						<div class="img" style="background-image: url(images/cpp.jpg);"></div>
 						<div class="text pt-4">
 							<p class="meta d-flex">
 								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
 								<span><i class="icon-table mr-2"></i>10 seats</span>
 								<span><i class="icon-calendar mr-2"></i>4 Years</span>
 							</p>
-							<h3><a href="Login.aspx">C++</a></h3>
+							<h3><a href="#">C++</a></h3>
 							<p>C++ is a programming language developed by Bjarne Stroustrup in 1979 at Bell Labs. C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features. It is a superset of C, and that virtually any legal C program is a legal C++ program.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 					</div>
 
-					<div class="col-md-3 course ftco-animate
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/.nettech.jpg);"></div></a>
+					<div class="col-md-3 course ftco-animate">
+						<div class="img" style="background-image: url(images/.nettech.jpg);"></div>
 						<div class="text pt-4">
 							<p class="meta d-flex">
 								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
 								<span><i class="icon-table mr-2"></i>10 seats</span>
 								<span><i class="icon-calendar mr-2"></i>8 Years</span>
 							</p>
-							<h3><a href="Login.aspx">.NET</a></h3>
+							<h3><a href="#">.NET</a></h3>
 							<p>NET is the Microsoft Web services strategy to connect information, people, systems, and devices through software. Integrated across the Microsoft platform, . NET technology provides the ability to quickly build, deploy, manage, and use connected, security-enhanced solutions with Web services. .</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 					</div>
 
 
 					<div class="col-md-3 course ftco-animate">
-							<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/Python.jpg);"></div></a>
+						<div class="img" style="background-image: url(images/Python.jpg);"></div>
 						<div class="text pt-4">
 							<p class="meta d-flex">
 								<span><i class="icon-user mr-2"></i>Mr. Roshan</span>
 								<span><i class="icon-table mr-2"></i>10 seats</span>
 								<span><i class="icon-calendar mr-2"></i>4 Years</span>
 							</p>
-							<h3><a href="Login.aspx">Python</a></h3>
+							<h3><a href="#">Python</a></h3>
 							<p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. ... Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 					</div>
 
 					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/git.jpg);"></div></a>
+						<div class="img" style="background-image: url(images/git.jpg);"></div>
 						<div class="text pt-4">
 							<p class="meta d-flex">
 								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
 								<span><i class="icon-table mr-2"></i>10 seats</span>
 								<span><i class="icon-calendar mr-2"></i>10 Years</span>
 							</p>
-							<h3><a href="Login.aspx">git</a></h3>
+							<h3><a href="#">git</a></h3>
 							<p>Git (/ɡɪt/) is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 					</div>
 					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/springBoot.jpg);"></div></a>
+						<div class="img" style="background-image: url(images/springBoot.jpg);"></div>
 						<div class="text pt-4">
 							<p class="meta d-flex">
 								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
 								<span><i class="icon-table mr-2"></i>10 seats</span>
 								<span><i class="icon-calendar mr-2"></i>10 Years</span>
 							</p>
-							<h3><a href="Login.aspx">Spring Boot</a></h3>
+							<h3><a href="#">Spring Boot</a></h3>
 							<p>Spring Boot is an open source Java-based framework used to create a micro Service. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications.</p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 					</div>
 					<div class="col-md-3 course ftco-animate">
-						<a href="Login.aspx">
-						<div class="img" style="background-image: url(images/MangoDB.jpg);"></div></a>
+						<div class="img" style="background-image: url(images/MangoDB.jpg);"></div>
 						<div class="text pt-4">
 							<p class="meta d-flex">
 								<span><i class="icon-user mr-2"></i>Mr. Gati</span>
 								<span><i class="icon-table mr-2"></i>10 seats</span>
 								<span><i class="icon-calendar mr-2"></i>10 Years</span>
 							</p>
-							<h3><a href="Login.aspx">MangoDB</a></h3>
+							<h3><a href="#">MangoDB</a></h3>
 							<p>MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. </p>
-							<p><a href="Login.aspx" class="btn btn-primary">Apply now</a></p>
+							<p><a href="#" class="btn btn-primary">Apply now</a></p>
 						</div>
 					</div>
 					
@@ -230,8 +223,8 @@
 Flat No. 301 Swami Sanket Sankul
 above Canara Bank , Puranik Layout Bharat Nagar
 Amravati Road Nagpur-440010</span></li>
-	                <li><span class="icon icon-phone"></span><span class="text">+91 8551952574</span></li>
-	                <li><span class="icon icon-envelope"></span><span class="text">mkplacemnet@gmail.com</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 8551952574</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">mkplacemnet@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -240,11 +233,11 @@ Amravati Road Nagpur-440010</span></li>
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="homePage.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                <li><a href="about.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                <li><a href="Staff.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>staff</a></li>
-                <li><a href="courses.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>Courses</a></li>
-                <li><a href="contact.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>staff</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Courses</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
               </ul>
             </div>
           </div>
@@ -261,9 +254,9 @@ Amravati Road Nagpur-440010</span></li>
             <div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
             	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="https://twitter.com/login?lang=en"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/accounts/login/?hl=en"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>

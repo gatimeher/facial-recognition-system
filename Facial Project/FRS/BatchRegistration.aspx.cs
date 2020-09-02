@@ -27,7 +27,10 @@ namespace FRS
 
             string res = reg.Batchregistration( tn, s, bt,bc);
             StatusLabel.Text = res;
-            
+            FacultyNameDropDownList.ClearSelection();
+            SubjectDropDownList.ClearSelection();
+            BatchTimeDropDownList.ClearSelection();
+            BatchCodeDropDownList.ClearSelection();
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)

@@ -206,7 +206,7 @@
     <Content Include="ScanFace.aspx" />
     <Content Include="staff.aspx" />
     <Content Include="StudentDashboard.aspx" />
-    <Content Include="teacher.html" />
+    <Content Include="staff.html" />
     <Content Include="UpdateBatch.aspx" />
     <Content Include="UpdateBranch.aspx" />
     <Content Include="UpdateFacultyRecord.aspx" />

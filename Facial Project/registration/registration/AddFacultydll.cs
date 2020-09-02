@@ -14,26 +14,34 @@ namespace registration
         public string phone { get; set; }
         public string gender { get; set; }
         public string batchcode { get; set; }
+        public string Email_id { get; set; }
+        public string AsignSub { get; set; }
 
         public string result;
         SqlConnection con;
         public AddFacultydll()
         {
             con = new SqlConnection("data source=DESKTOP-6RGINGV\\SQLEXPRESS;integrated security=true;database=FRSDatabase;");
-        }        
-        public string saveFaculty(string fn, string add, string ph, string gen,string bc)
+        }
+
+
+        
+
+        public string saveFaculty(string fn, string add, string ph, string gen,string bc,string em, string asub)
         {
             facultyname = fn;
             address = add;
             phone = ph;
             gender = gen;
             batchcode = bc;
+            Email_id = em;
+            AsignSub = asub;
 
             string result = " ";
             try
             {
                 con.Open();
-                string qr = "insert into AddFacultyDB(Faculty_Name,Address,Phone_Number,Gender,Batch_Code) values('" + facultyname + "','" + address + "','" + phone + "','" + gender + "','" + batchcode + "')";
+                string qr = "insert into AddFacultyDB(Faculty_Name,Address,Phone_Number,Gender,Batch_Code,Email_ID,Asign_Subject) values('" + facultyname + "','" + address + "','" + phone + "','" + gender + "','" + batchcode + "','"+ Email_id +"','"+ AsignSub +"')";
                 SqlCommand command = new SqlCommand(qr, con);
                 command.ExecuteNonQuery();
                 result = "Faculty Added Successfully";

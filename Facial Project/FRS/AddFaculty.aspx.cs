@@ -36,17 +36,29 @@ namespace FRS
                 OtherRadioButton.Visible = false;
             }
             string bc = BatchCodeDropDownList.Text;
+            string email = TextBox1.Text;
+            string assub = DropDownList1.Text;
+
+
+            
+
 
             string resfn = obj.checkefacultyName(fn,bc);
              if(resfn=="false")
              {
-                         string res = obj.saveFaculty(fn, add, ph, gen, bc);
+                         string res = obj.saveFaculty(fn, add, ph, gen, bc,email,assub);
                          StatusLabel.Text = res;                
              }
              else 
              {               
                     StatusLabel.Text = "Faculty with this Name and Batch Name is already exists, please enter another Faculty Name and Batch Code";               
-             }            
+             }
+            FacultyNameTextBox.Text = string.Empty;
+            AddressTextBox.Text = "";
+            PhoneNumberTextBox.Text = "";
+            MaleRadioButton.Checked = false;
+            FemaleRadioButton.Checked = false;
+            OtherRadioButton.Checked = false;
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)

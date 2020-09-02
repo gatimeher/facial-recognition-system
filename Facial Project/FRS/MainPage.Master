@@ -82,7 +82,7 @@
 	        	<li class="nav-item active"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="about.aspx" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="staff.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item"><a href="teacher.aspx" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="blog.aspx" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>
@@ -113,21 +113,22 @@
 Flat No. 301 Swami Sanket Sankul
 above Canara Bank , Puranik Layout Bharat Nagar
 Amravati Road Nagpur-440010</span></li>
-	                 <li><span class="icon icon-phone"></span><span class="text">+91 8551952574</span></li>
-	                <li><span class="icon icon-envelope"></span><span class="text">mkplacemnet@gmail.com</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 8551952574</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">mkplacemnet@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
           </div>
+          
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="homePage.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                <li><a href="about.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                <li><a href="Staff.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>staff</a></li>
-                <li><a href="courses.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>Courses</a></li>
-                <li><a href="contact.aspx"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>staff</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Courses</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
               </ul>
             </div>
           </div>
@@ -144,9 +145,9 @@ Amravati Road Nagpur-440010</span></li>
             <div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
             	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="https://twitter.com/login?lang=en"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/accounts/login/?hl=en"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>

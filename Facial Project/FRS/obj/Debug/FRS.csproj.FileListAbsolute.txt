@@ -533,7 +533,6 @@ E:\gitdemo\facial-recognition-system\Facial Project\FRS\bin\Microsoft.CodeDom.Pr
 E:\gitdemo\facial-recognition-system\Facial Project\FRS\bin\registration.dll
 E:\gitdemo\facial-recognition-system\Facial Project\FRS\bin\registration.pdb
 E:\gitdemo\facial-recognition-system\Facial Project\FRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\gitdemo\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache
 E:\gitdemo\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csproj.CoreCompileInputs.cache
 E:\gitdemo\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 E:\gitdemo\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.dll
@@ -657,3 +656,4 @@ C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\bin\Microsoft.CodeDom.Provide
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.dll
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.pdb
+E:\gitdemo\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache

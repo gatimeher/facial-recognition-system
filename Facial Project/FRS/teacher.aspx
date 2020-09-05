@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="FRS.contact" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="teacher.aspx.cs" Inherits="FRS.teacher" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>M.K. Placement And Education Services</title>
+     <title>M.K. Placement And Education Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,8 +27,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-      
-              <div class="bg-top navbar-light">
+       <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
@@ -78,92 +77,140 @@
 	        	<li class="nav-item"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item "><a href="about.aspx" class="nav-link">About</a></li>
 	        	<li class="nav-item "><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="teacher.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item active"><a href="teacher.aspx" class="nav-link">Staff</a></li>
 	        	<li class="nav-item"><a href="blog.aspx" class="nav-link">Blog</a></li>
-	          <li class="nav-item active"><a href="contact.aspx" class="nav-link">Contact</a></li>
+	          <li class="nav-item "><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
         </form>
 	    </div>
 	  </nav>
     <!-- END nav -->
-    
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-2 bread">Certified Teacher</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="homePage.aspx">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Teacher <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
-    </section>
+    </section>    
 
-    <section class="ftco-section contact-section">
-      <div class="container">
-        <div class="row d-flex contact-info">
-          <div class="col-md-3 d-flex">
-              <div class="bg-light align-self-stretch box p-4 text-center">
-                  <h3 class="mb-4">Address</h3>
-                  <p>MK Placements & Education Services</p>
-                  <p>
-                      Flat No. 301 Swami Sanket Sankul
-                      above Canara Bank , Puranik Layout Bharat Nagar
-                      Amravati Road Nagpur-440010
-                  </p>
-              </div>
-          </div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light align-self-stretch box p-4 text-center">
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://1234567920">+91 8551952574</a></p>
-	          </div>
-          </div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light align-self-stretch box p-4 text-center">
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mkplacement@gmail.com">mkplacement@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light align-self-stretch box p-4 text-center">
-          		<h3 class="mb-4">Website</h3>
-	            <p><a href="https://localhost:44398/homePage.aspx">www.mkPlacement.com</a></p>
-	          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
-			<div class="container">
-				<div class="row d-flex align-items-stretch no-gutters">
-					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-						<form action="#">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
+                          <section class="ftco-section bg-light">
+			<div class="container-fluid px-4">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/Mr.gati.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr.Gati Meher</h3>
+								<span class="position mb-2">Teacher</span>
+								<div class="faded">
+									<p>Skilled in all phases of the software development lifecycle with expertise in translating business requirements into technical solutions and fanatical about quality, usability, security and scalability.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/GatiMeher?s=20"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/gatimeher"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/gatimeher/?hl=en"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>                  
+					
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/MR.Ashish.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr.Ashish Gajbhiyer</h3>
+								<span class="position mb-2">Counselor</span>
+								<div class="faded">
+									<p>I am an Counselor , Entrepreneur, Motivational speaker, Social worker but apart from that, pretty simple and sorted person and I believe in hardworking with smart work.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/ashish.gajbhiye.14"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/ashish_mkpes/?hl=en"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-6 d-flex align-items-stretch">
-						<div id="map"></div>
+
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/DivyaJain.png);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Miss.Divya Jain</h3>
+								<span class="position mb-2">Teacher (Communication Skills)</span>
+								<div class="faded">
+									<p>I am adept in handling responsibilities to foster change across recruitment, business strategies, t employee engagement with shades of an individual contributor and a team manager.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-		</section>
+
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/Mr.MujahidKhan.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr. Mujahid Khan</h3>
+								<span class="position mb-2">Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/mujahid.khan.148553"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+                    
+					 <div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(images/Mr.roshan.jpg);"></div>
+							</div>
+							<div class="text pt-3 text-center">
+								<h3>Mr.Roshan Thakur</h3>
+								<span class="position mb-2">Teacher</span>
+								<div class="faded">
+									<p>I am an ambitious hardworking, dedicated towards work.</p>
+									<ul class="ftco-social text-center">
+		                <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://accounts.google.com/"><span class="icon-google-plus"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+	              </div>
+							</div>
+						</div>
+					</div>
+                  
+   </section>
+
+
+
     </form>
 
     	

@@ -79,6 +79,7 @@
     <Content Include="BatchAttendanceReport.aspx" />
     <Content Include="BatchRegistration.aspx" />
     <Content Include="blog-single.html" />
+    <Content Include="blog.aspx" />
     <Content Include="blog.html" />
     <Content Include="BranchRegistration.aspx" />
     <Content Include="contact.aspx" />
@@ -128,6 +129,9 @@
     <Content Include="images\bg_5.jpg" />
     <Content Include="images\c.jpg" />
     <Content Include="images\calender.png" />
+    <Content Include="images\clg image.jpg" />
+    <Content Include="images\college-edu.jpg" />
+    <Content Include="images\college-student.jpg" />
     <Content Include="images\course-1.jpg" />
     <Content Include="images\course-2.jpg" />
     <Content Include="images\course-3.jpg" />
@@ -137,6 +141,8 @@
     <Content Include="images\course-7.jpg" />
     <Content Include="images\course-8.jpg" />
     <Content Include="images\cpp.jpg" />
+    <Content Include="images\DivyaJain.png" />
+    <Content Include="images\face.jpg" />
     <Content Include="images\git.jpg" />
     <Content Include="images\image_1.jpg" />
     <Content Include="images\image_2.jpg" />
@@ -144,19 +150,29 @@
     <Content Include="images\image_4.jpg" />
     <Content Include="images\image_5.jpg" />
     <Content Include="images\image_6.jpg" />
+    <Content Include="images\Indian-college-students-new-c.jpg" />
     <Content Include="images\indian-students-1024x576.jpg" />
     <Content Include="images\loc.png" />
     <Content Include="images\MangoDB.jpg" />
+    <Content Include="images\MR.Ashish.jpg" />
+    <Content Include="images\Mr.gati.jpg" />
+    <Content Include="images\Mr.MujahidKhan.jpg" />
+    <Content Include="images\Mr.roshan.jpg" />
+    <Content Include="images\nikita.jpg" />
     <Content Include="images\person_1.jpg" />
     <Content Include="images\person_2.jpg" />
     <Content Include="images\person_3.jpg" />
     <Content Include="images\person_4.jpg" />
+    <Content Include="images\pratiksha.jpg" />
+    <Content Include="images\pratikshaImage.jpg" />
     <Content Include="images\Python.jpg" />
+    <Content Include="images\rajeshri.jpg" />
     <Content Include="images\springBoot.jpg" />
     <Content Include="images\staff-1.jpg" />
     <Content Include="images\staff-2.jpg" />
     <Content Include="images\staff-3.jpg" />
     <Content Include="images\staff-4.jpg" />
+    <Content Include="images\student759.jpg" />
     <Content Include="images\teacher-1.jpg" />
     <Content Include="images\teacher-2.jpg" />
     <Content Include="images\teacher-3.jpg" />
@@ -165,6 +181,7 @@
     <Content Include="images\teacher-6.jpg" />
     <Content Include="images\teacher-7.jpg" />
     <Content Include="images\teacher-8.jpg" />
+    <Content Include="images\teachers--621x414.jpg" />
     <Content Include="index.html" />
     <Content Include="js\aos.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -188,6 +205,7 @@
     <Content Include="savephoto.aspx" />
     <Content Include="ScanFace.aspx" />
     <Content Include="StudentDashboard.aspx" />
+    <Content Include="teacher.aspx" />
     <Content Include="teacher.html" />
     <Content Include="UpdateBatch.aspx" />
     <Content Include="UpdateBranch.aspx" />
@@ -248,6 +266,13 @@
     </Compile>
     <Compile Include="BatchRegistration.aspx.designer.cs">
       <DependentUpon>BatchRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
     </Compile>
     <Compile Include="BranchRegistration.aspx.cs">
       <DependentUpon>BranchRegistration.aspx</DependentUpon>
@@ -397,6 +422,13 @@
     </Compile>
     <Compile Include="StudentDashboard.aspx.designer.cs">
       <DependentUpon>StudentDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="teacher.aspx.cs">
+      <DependentUpon>teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="teacher.aspx.designer.cs">
+      <DependentUpon>teacher.aspx</DependentUpon>
     </Compile>
     <Compile Include="UpdateBatch.aspx.cs">
       <DependentUpon>UpdateBatch.aspx</DependentUpon>

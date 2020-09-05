@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="FRS.contact" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="blog.aspx.cs" Inherits="FRS.blog" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>M.K. Placement And Education Services</title>
+     <title>M.K. Placement And Education Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,8 +27,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-      
-              <div class="bg-top navbar-light">
+                             <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
@@ -78,95 +77,139 @@
 	        	<li class="nav-item"><a href="homePage.aspx" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item "><a href="about.aspx" class="nav-link">About</a></li>
 	        	<li class="nav-item "><a href="courses.aspx" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="teacher.aspx" class="nav-link">Staff</a></li>
-	        	<li class="nav-item"><a href="blog.aspx" class="nav-link">Blog</a></li>
-	          <li class="nav-item active"><a href="contact.aspx" class="nav-link">Contact</a></li>
+	        	<li class="nav-item "><a href="teacher.aspx" class="nav-link">Staff</a></li>
+	        	<li class="nav-item active"><a href="blog.aspx" class="nav-link">Blog</a></li>
+	          <li class="nav-item "><a href="contact.aspx" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
         </form>
 	    </div>
 	  </nav>
     <!-- END nav -->
-    
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
+                         <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-2 bread">Blog</h1>
+             <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="blog.aspx">Blog </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section contact-section">
-      <div class="container">
-        <div class="row d-flex contact-info">
-          <div class="col-md-3 d-flex">
-              <div class="bg-light align-self-stretch box p-4 text-center">
-                  <h3 class="mb-4">Address</h3>
-                  <p>MK Placements & Education Services</p>
-                  <p>
-                      Flat No. 301 Swami Sanket Sankul
-                      above Canara Bank , Puranik Layout Bharat Nagar
-                      Amravati Road Nagpur-440010
-                  </p>
-              </div>
-          </div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light align-self-stretch box p-4 text-center">
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://1234567920">+91 8551952574</a></p>
-	          </div>
-          </div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light align-self-stretch box p-4 text-center">
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mkplacement@gmail.com">mkplacement@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light align-self-stretch box p-4 text-center">
-          		<h3 class="mb-4">Website</h3>
-	            <p><a href="https://localhost:44398/homePage.aspx">www.mkPlacement.com</a></p>
-	          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+                         <section class="ftco-section bg-light">
 			<div class="container">
-				<div class="row d-flex align-items-stretch no-gutters">
-					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-						<form action="#">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+				<div class="row">
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/Indian-college-students-new-c.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">26</span>
+                  <span class="mos">June</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">College Infrastructure</a></h3>
+                <p>The academic experience with a good infrastructure and excellent faculty at M.K. Placement have endured me with lifelong 
+                    confidence. The exceptional programs and teaching methodologies backed by practical skills and industry interface have given
+                    me the confidence to pursue my career ahead. Moreover, the friendly attitude of the professors and their willingness to always
+                    offer a helping hand has made me feel like a family. Though being from a non-IT branch I feel that I am surrounded by good hands 
+                    and I would like to thank the entire team.</p>
+               
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+          </div>
+
+                   
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/college-edu.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">20</span>
+                  <span class="mos">July</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">Academic Information</a></h3>
+                <p>First of all I would like to thank MK Placement & Education Services. My experience in MK Placement is that, when I came to know 
+                    about MK Placement & Education Services, honestly I didn't have much idea at that time and was looking for a job. So I thought it
+                    would be a better option to join here and get some knowledge about IT software and interviews, which would be a big thing for me. 
+                    Then I was assured by the staff from the Institute and joined. From day one I felt a different energetic atmosphere in the class 
+                    room. And about the staff all are well educated, trained and also very much friendly to everyone, as a student which helped me a
+                    lot.</p>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+            </div>
+          </div>
+
+                    <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/student759.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">30</span>
+                  <span class="mos">July</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">Skills To Develop Student Memory</a></h3>
+                <p> They never shown any irritation even though I was asking same things repeatedly, which separates MK placement &
+                    Education Services from other training Institutes. The main thing is that all the syllabus covered up in a proper manner, so that
+                    a student can understand each things about the software. And thanks for providing some important seminar which helped me a lot to 
+                    crack an interview. Thank you MK Placement for making my career.
               </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+            </div>
+          </div>
+                    
+                   
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/college-student.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">2</span>
+                  <span class="mos">August</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">Student Obstacle</a></h3>
+                <p>Let me start with my educational background as I am from Non-IT,so everyone out there in market has the fear of how to go in 
+                    IT sector(who are from Non-IT sector) and for the students like us don't know how to tackle the situation but here comes in
+                    picture the MK Placement And Education Services.</p>
               </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            </div>
+          </div>
+
+                    
+                   
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/teachers--621x414.jpg');">
+								<div class="meta-date text-center p-2">
+                  <span class="day">15</span>
+                  <span class="mos">August</span>
+                  <span class="yr">2019</span>
+                </div>
+              </a>
+              <div class="text bg-white p-4">
+                <h3 class="heading"><a href="#">The Teaching Methodology</a></h3>
+                <p>
+                    The teaching methodology and enough practice on the practicals is focused.Moreover,the friendly attitude of the faculty and always
+                    ready to help has made me feel like a family and it has endured me with a lot of confidence in life. I would like to thank the 
+                    entire team of the MK Placements And Education Services.</p>
               </div>
-            </form>
-					</div>
-					<div class="col-md-6 d-flex align-items-stretch">
-						<div id="map"></div>
-					</div>
-				</div>
-			</div>
-		</section>
+            </div>
+          </div>
+
+
+</section>
+
     </form>
 
-    	
+	
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">

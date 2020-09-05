@@ -39,6 +39,10 @@ namespace FRS
             string email = TextBox1.Text;
             string assub = DropDownList1.Text;
 
+
+            
+
+
             string resfn = obj.checkefacultyName(fn,bc);
              if(resfn=="false")
              {

@@ -11,7 +11,7 @@ namespace FRS
 {
 
 
-    public partial class about
+    public partial class blog
     {
 
         /// <summary>

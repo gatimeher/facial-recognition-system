@@ -33,7 +33,6 @@ namespace FRS
             //string email = EmailTextBox.Text;
             FotgotPassworddll ad = new FotgotPassworddll();
             StausLabel.Text = ad.updatepassword(EmailTextBox.Text, PassTextBox.Text);
-
             EmailTextBox.Text = " ";
             PassTextBox.Text = " ";
             CPassTextBox.Text = " ";

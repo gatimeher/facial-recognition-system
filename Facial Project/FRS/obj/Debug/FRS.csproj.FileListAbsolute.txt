@@ -656,4 +656,3 @@ C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\bin\Microsoft.CodeDom.Provide
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.dll
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.pdb
-E:\gitdemo\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache

@@ -53,7 +53,7 @@
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   
-          body {
+           body {
   background-color: rgb(255, 183, 131);
 }
 
@@ -106,13 +106,14 @@
 		  </div>
     </div>  
 
-            
-              <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+
+
+                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container d-flex align-items-center px-4">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
-	      </div>
+	      <form>
           
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
@@ -120,13 +121,15 @@
 	        	<li class="nav-item active"><a href="AddStudent.aspx" class="nav-link pl-0">Student Details</a></li>
 	        	<li class="nav-item"><a href="UpdateStudentRecord.aspx" class="nav-link">Update Student Record</a></li>
 	        	<li class="nav-item"><a href="GenerateStudentAttendanceReport.aspx" class="nav-link">Generate Student Attendance Report</a></li>
-	        	
-             <!--   <li class="nav-item"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>-->
-               <!-- <li class="nav-item"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a></li>-->
+                 <li class="nav-item"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
+                <li class="nav-item"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a>
+                 <li class="nav-item"><a href="FaceAttendanceReport.aspx" class="nav-link">Show Face Attendance Report</a>
 	        </ul>
 	      </div>
+        </form>
 	    </div>
 	  </nav>
+
 
         <font color ="black">
         <div>
@@ -210,11 +213,6 @@
                     <td class="auto-style7">
                         <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style9" TextMode="Email" Width="179px" Height="24px"></asp:TextBox>
                     </td>
-                </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style7">
-                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>

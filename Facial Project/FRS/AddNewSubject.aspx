@@ -52,7 +52,7 @@
   box-sizing: border-box; }
 
 
-     body {
+   body {
   background-color: rgb(255, 183, 131);
 }
         .auto-style6 {
@@ -125,7 +125,6 @@
         <div>
             <div class="auto-style4">
                 <strong><span class="auto-style5">
-                <br />
                 Add New Subject</span></strong><br />
                 <br />
             </div>
@@ -157,7 +156,7 @@
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>Description</td>
                     <td>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="DescriptionTextBox" runat="server" TextMode="MultiLine" Height="45px" Width="175px"></asp:TextBox>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="DescriptionTextBox" runat="server" TextMode="MultiLine" Height="23px" Width="175px"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="DescriptionTextBox" ErrorMessage="Enter description of subject" CssClass="auto-style6"></asp:RequiredFieldValidator>
                     </td>
                 </tr>

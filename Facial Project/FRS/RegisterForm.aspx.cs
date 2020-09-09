@@ -97,14 +97,31 @@ namespace FRS
                 {
                     StatusLabel.Text = "User with this Name is not exists, please enter selected Name";
                 }
-            }
+           }
             else
             {
                 StatusLabel.Text = "User with this Email already exists, please enter another Email";
                 EmailTextBox.Text = "";
                 EmailTextBox.Focus();
             }
-          
+
+
+            FirstNameTextBox.Text = " ";
+            //LastNameTextBox.Text = " ";
+            AddressTextBox.Text = " ";
+            ContactNumberTextBox.Text = " ";
+            EmailTextBox.Text = " ";
+            MaleRadioButton.Checked = false;
+            FemaleRadioButton.Checked = false;
+            OtherRadioButton.Checked = false;
+            // PasswordTextBox.Text = " ";
+            //ConformPasswordTextBox.Text = " ";
+            DateOfBirthTextBox.Text = " ";
+            DateOfJoiningTextBox.Text = " ";
+            IdProofDropDwomList.ClearSelection();
+            IdProofNumberTextBox.Text = " ";
+            RoleDropDownList.ClearSelection();
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)

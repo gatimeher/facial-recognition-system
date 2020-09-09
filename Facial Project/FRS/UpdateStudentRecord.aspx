@@ -111,7 +111,7 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;Student Name</td>
+                <td class="auto-style3">Select&nbsp;Student&nbsp;Name</td>
                 <td>
                     <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="Student_Name" DataValueField="Student_Name" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
                     </asp:DropDownList>

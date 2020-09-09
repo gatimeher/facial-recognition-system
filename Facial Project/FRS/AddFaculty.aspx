@@ -1,4 +1,4 @@
-﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddFaculty.aspx.cs" Inherits="FRS.AddFaculty" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddFaculty.aspx.cs" Inherits="FRS.AddFaculty" %>
 
 <!DOCTYPE html>
 
@@ -59,9 +59,10 @@ label {
 
 
 
-  body {
+body {
   background-color: rgb(255, 183, 131);
 }
+
 
         .auto-style7 {
             width: 340px;
@@ -126,7 +127,6 @@ label {
 	        	<li class="nav-item"><a href="UpdateFacultyRecord.aspx" class="nav-link">Update Faculty Record</a></li>
 	            <li class="nav-item"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
                 <li class="nav-item"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a></li>
-                 <li class="nav-item"><a href="FaceAttendanceReport.aspx" class="nav-link">Show Face Attendance Report</a>
 	        </ul>
 	      </div>
         </form>
@@ -135,9 +135,7 @@ label {
 
          <font color="black">
     <p class="auto-style6">
-        &nbsp;</p>
-         <p class="auto-style6">
-             <strong><span class="auto-style5" align="center">Add Faculty </span></strong></p>
+        <strong><span class="auto-style5" align="center">Add Faculty </span></strong></p>
     <form id="form1" runat="server">
         <div>
             <table align="center" class="auto-style1">

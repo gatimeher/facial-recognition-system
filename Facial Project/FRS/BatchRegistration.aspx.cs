@@ -31,6 +31,9 @@ namespace FRS
             SubjectDropDownList.ClearSelection();
             BatchTimeDropDownList.ClearSelection();
             BatchCodeDropDownList.ClearSelection();
+
+
+
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)

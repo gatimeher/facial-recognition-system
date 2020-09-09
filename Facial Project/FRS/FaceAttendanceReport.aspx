@@ -47,22 +47,6 @@
             text-align: left;
             width: 769px;
         }
-        .auto-style8 {
-            width: 75%;
-            font-size: xx-small;
-        }
-        .auto-style9 {
-            font-size: medium;
-            text-align: right;
-        }
-        .auto-style10 {
-            font-size: medium;
-            height: 45px;
-        }
-        .auto-style11 {
-            width: 769px;
-            height: 45px;
-        }
     </style>
 </head>
 <body>
@@ -128,65 +112,67 @@
         <font color ="black">
     <form id="form1" runat="server">
         <div class="auto-style1">
-            <strong>
-            <br />
-            Show Face Attendance Report<br />
+            <strong>Show Face Attendance Report<br />
             <br />
             </strong>
-            <table align="center" class="auto-style8">
+            <table align="center" class="w-75">
                 <tr>
-                    <td class="auto-style9">Enter Email ID</td>
-                    <strong>
-                    <td class="auto-style7">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style5" Width="175px" Height="23px"></asp:TextBox>
+                    <td class="auto-style3">Enter Email ID</td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style5" Width="214px"></asp:TextBox>
                         <font color ="black">
                         <strong><span class="auto-style3">&nbsp;&nbsp;&nbsp; </span></strong>
                 </font>
                     </td>
-                </tr>
-                <tr>
-                    <td class="auto-style10"></td>
-                    <td class="auto-style11">
-                    </td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style7">
                         <font color ="black">
-                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button2" runat="server" CssClass="auto-style4" OnClick="Button2_Click" style="font-size: small; font-weight: bold" Text="Search for Faculty Record" Width="216px" />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button1" runat="server" CssClass="auto-style4" OnClick="Button1_Click1" Text="Search for Student Record" style="font-size: small; font-weight: bold" Width="216px" />
+                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button1" runat="server" CssClass="auto-style4" OnClick="Button1_Click1" Text="Search for Studet Record" style="font-size: small; font-weight: bold" Width="216px" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp; </strong>
+                        <asp:Button ID="Button2" runat="server" CssClass="auto-style5" OnClick="Button2_Click" style="font-size: small; font-weight: bold" Text="Search for Faculty Record" />
+&nbsp;&nbsp;&nbsp; </strong>
                 </font>
                     </td>
+                    <td class="text-left">
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style7">
                         &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    </strong>
                     <td class="auto-style6">
+                        <strong>
                         <asp:Label ID="Label1" runat="server" CssClass="auto-style3"></asp:Label>
+                        </strong>
                     </td>
-                    <strong>
+                    <td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     <td class="auto-style6">
                         &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
-                    </strong>
                     <td class="auto-style6">
                         <asp:GridView ID="GridView1" runat="server" CssClass="auto-style3">
                         </asp:GridView>
                     </td>
+                    <td>
+                        &nbsp;</td>
                 </tr>
             </table>
         </div>

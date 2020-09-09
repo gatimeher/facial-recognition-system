@@ -90,7 +90,9 @@
 	        	
 	          <li class="nav-item "><a href="BatchRegistration.aspx" class="nav-link">Batch Registration</a></li>
                <li class="nav-item active"><a href="UpdateBatch.aspx" class="nav-link">Update Batch Records</a></li>
-                <li class="nav-item"><a href="GenrateBatchWiseAttendance.aspx" class="nav-link">Generate Batch Wise Report</a></li>
+                <%--<li class="nav-item"><a href="GenrateBatchWiseAttendance.aspx" class="nav-link">Generate Batch Wise Report</a></li>--%>
+                <li class="nav-item"><a href="GenerateBatchwiseAttendanceAdmin.aspx" class="nav-link">Faculty Batch Wise Attendance Report</a></li>
+                <li class="nav-item"><a href="BatchReportWithoutfacultyAdmin.aspx" class="nav-link">Batch wise Student Attendance Report</a></li>
                 
 	        </ul>
 	      </div>

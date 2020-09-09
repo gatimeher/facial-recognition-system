@@ -36,10 +36,6 @@
         .auto-style5 {
             font-size: medium;
         }
-        .auto-style6 {
-            font-weight: bold;
-            font-size: medium;
-        }
         .auto-style7 {
             width: 60%;
         }
@@ -49,6 +45,9 @@
         .auto-style8 {
             color: #FF0000;
             font-size: medium;
+        }
+        .auto-style9 {
+            font-weight: normal;
         }
     </style>
 </head>
@@ -112,28 +111,36 @@
 
              <font color="black">
         <div class="auto-style4">
-            <strong><span class="auto-style3">Your Date Wise Attendance Report<br />
+            <strong><span class="auto-style3">
             <br />
-            </span><span class="auto-style5">Select Start Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span><span class="auto-style3">
+            Your Date Wise Attendance Report<br />
+            <br />
+            </span>
+            </strong><span class="auto-style5">Select Start Date<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </strong>
+            </span>
+            <strong><span class="auto-style3">
             <asp:TextBox ID="TextBox1" runat="server" TextMode="Date" CssClass="auto-style5"></asp:TextBox>
-            </span><span class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select End Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span><span class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style9">Select End Date</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span><span class="auto-style3">
             <asp:TextBox ID="TextBox2" runat="server" TextMode="Date" CssClass="auto-style5"></asp:TextBox>
             </span>
             <br class="auto-style5" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </strong>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" CssClass="auto-style8" ErrorMessage="Select Start Date"></asp:RequiredFieldValidator>
-            <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </strong>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" CssClass="auto-style8" ErrorMessage="Select End Date"></asp:RequiredFieldValidator>
             <strong>
             <span class="auto-style3">
             <br />
-            <asp:Button ID="Button1" runat="server" CssClass="auto-style6" OnClick="Button1_Click" Text="Click here to view" />
-            <br />
-            </span>
             </strong>
+            <asp:Button ID="Button1" runat="server" CssClass="auto-style5" OnClick="Button1_Click" Text="Click here to view" />
+            <strong>
+            <br />
+            </strong>
+            </span>
             <table align="center" class="auto-style7">
                 <tr>
                     <td>

@@ -80,10 +80,11 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
                 <li class="nav-item active"><a href="AdminDashboard.aspx" class="nav-link pl-0">Home</a></li>
+                <li class="nav-item"><a href="AddFaculty.aspx" class="nav-link">Faculty Details</a></li>
 	        	<li class="nav-item "><a href="AddStudent.aspx" class="nav-link pl-0">Student Details</a></li>
 	        	<!--<li class="nav-item"><a href="UpdateStudentRecord.aspx" class="nav-link">Update Student Record</a></li>-->
 	        	<!--<li class="nav-item"><a href="GenerateStudentAttendanceReport.aspx" class="nav-link">Genrate Student Attendance Report</a></li>-->
-	        	<li class="nav-item"><a href="AddFaculty.aspx" class="nav-link">Faculty Details</a></li>
+	        	
 	        	<!--<li class="nav-item"><a href="UpdateFacultyRecord.aspx" class="nav-link">Update Faculty Record</a></li>-->
 	          <li class="nav-item"><a href="BatchRegistration.aspx" class="nav-link">Batch Details</a></li>
                 <!--<li class="nav-item"><a href="UpdateBatch.aspx" class="nav-link">Update Batch Details</a></li>
@@ -101,7 +102,7 @@
         <center>
     
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    
+    <font color ="black">
             <br />
     
             <strong><span class="auto-style1">&nbsp;&nbsp;&nbsp;&nbsp;Admin Dashboard&nbsp;
@@ -128,7 +129,7 @@
                 &nbsp;</p>
             <p>
                 &nbsp;</p>
-
+        </font>
              </center>
              </form>
 </body>

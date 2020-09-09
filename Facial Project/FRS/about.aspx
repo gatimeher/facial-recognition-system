@@ -137,15 +137,7 @@
 		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2 d-flex">
-    			<div class="col-md-6 align-items-stretch d-flex">
-    				<div class="img img-video d-flex align-items-center" style="background-image: url(images/about-2.jpg);">
-    					<div class="video justify-content-center">
-								<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-									<span class="ion-ios-play"></span>
-		  					</a>
-							</div>
-    				</div>
-    			</div>
+    			
           <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
              <h2 class="mb-4">OUR MISSION</h2>
             <p>Our Mission is to create a pool of satisfied candidates by placing them in the right vertical, to create a niche of satisfied clients
@@ -233,7 +225,11 @@
               </div>
               <div class="desc">
                 <h3>Miss. Rajeshri Thombare</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+                <p>My name is Rajeshri Thombare I am 22 year old and I did my graduation from Sadabai Raisoni
+                    Women’s Collage SNDT University Mumbai in 2018. And currently I am pursuing MCA from RTMN 
+                    University Nagpur and also I am doing .Net internship from MK Placement and education 
+                    services Nagpur and during .Net internship I am working on the Facial Recognition System 
+                    Project. </p>
               </div>
             </div>
 

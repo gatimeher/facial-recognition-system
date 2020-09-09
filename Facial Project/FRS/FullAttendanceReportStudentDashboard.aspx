@@ -140,7 +140,9 @@ textarea {
     <font color="black">
 
         <div class="auto-style1">
-            <strong><span class="auto-style8">Your Full Attendace Record</span></strong><em><strong><span class="auto-style8"><br />
+            <strong><span class="auto-style8">
+            <br />
+            Your Full Attendance Record</span></strong><em><strong><span class="auto-style8"><br />
             </span>
             <br />
             </strong>

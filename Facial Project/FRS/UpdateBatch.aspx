@@ -104,7 +104,9 @@
 
 
         <div class="auto-style1">
-            <strong>Update Batch Record<br />
+            <strong>
+            <br />
+            Update Batch Record<br />
             </strong>
         </div>
         <table align="center" class="auto-style2">

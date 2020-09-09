@@ -52,10 +52,6 @@
         .auto-style7 {
             width: 361px;
         }
-        .auto-style8 {
-            width: 361px;
-            text-align: center;
-        }
     </style>
 </head>
 <body>
@@ -132,8 +128,8 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="text-center">
+                <td class="auto-style7">&nbsp;</td>
+                <td>
                     <asp:GridView ID="GridView1" runat="server">
                     </asp:GridView>
                 </td>

@@ -593,6 +593,7 @@ E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\Microsoft.Co
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\registration.dll
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\registration.pdb
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.dll
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.pdb
@@ -655,3 +656,63 @@ C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\bin\Microsoft.CodeDom.Provide
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.dll
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.pdb
+E:\facial project\FRS\bin\FRS.dll.config
+E:\facial project\FRS\bin\FRS.dll
+E:\facial project\FRS\bin\FRS.pdb
+E:\facial project\FRS\bin\roslyn\csc.exe
+E:\facial project\FRS\bin\roslyn\csc.exe.config
+E:\facial project\FRS\bin\roslyn\csc.rsp
+E:\facial project\FRS\bin\roslyn\csi.exe
+E:\facial project\FRS\bin\roslyn\csi.exe.config
+E:\facial project\FRS\bin\roslyn\csi.rsp
+E:\facial project\FRS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\facial project\FRS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\facial project\FRS\bin\roslyn\Microsoft.Managed.Core.targets
+E:\facial project\FRS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\facial project\FRS\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\facial project\FRS\bin\roslyn\System.AppContext.dll
+E:\facial project\FRS\bin\roslyn\System.Collections.Immutable.dll
+E:\facial project\FRS\bin\roslyn\System.Console.dll
+E:\facial project\FRS\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\facial project\FRS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\facial project\FRS\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\facial project\FRS\bin\roslyn\System.Globalization.Calendars.dll
+E:\facial project\FRS\bin\roslyn\System.IO.Compression.dll
+E:\facial project\FRS\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\facial project\FRS\bin\roslyn\System.IO.FileSystem.dll
+E:\facial project\FRS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\facial project\FRS\bin\roslyn\System.Net.Http.dll
+E:\facial project\FRS\bin\roslyn\System.Net.Sockets.dll
+E:\facial project\FRS\bin\roslyn\System.Reflection.Metadata.dll
+E:\facial project\FRS\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\facial project\FRS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\facial project\FRS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\facial project\FRS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\facial project\FRS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\facial project\FRS\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\facial project\FRS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\facial project\FRS\bin\roslyn\System.ValueTuple.dll
+E:\facial project\FRS\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\facial project\FRS\bin\roslyn\System.Xml.XmlDocument.dll
+E:\facial project\FRS\bin\roslyn\System.Xml.XPath.dll
+E:\facial project\FRS\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\facial project\FRS\bin\roslyn\vbc.exe
+E:\facial project\FRS\bin\roslyn\vbc.exe.config
+E:\facial project\FRS\bin\roslyn\vbc.rsp
+E:\facial project\FRS\bin\roslyn\VBCSCompiler.exe
+E:\facial project\FRS\bin\roslyn\VBCSCompiler.exe.config
+E:\facial project\FRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\facial project\FRS\bin\registration.dll
+E:\facial project\FRS\bin\registration.pdb
+E:\facial project\FRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\facial project\FRS\obj\Debug\FRS.csproj.CoreCompileInputs.cache
+E:\facial project\FRS\obj\Debug\FRS.csproj.CopyComplete
+E:\facial project\FRS\obj\Debug\FRS.dll
+E:\facial project\FRS\obj\Debug\FRS.pdb

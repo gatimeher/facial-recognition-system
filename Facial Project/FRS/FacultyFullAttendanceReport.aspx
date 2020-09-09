@@ -104,7 +104,7 @@
         <div class="auto-style1">
             <strong>
             <br />
-            Your Full Attendance Record<br />
+            Your Full Attendace Record<br />
             <br />
             </strong>
             <asp:Button ID="Button1" runat="server" CssClass="auto-style4" OnClick="Button1_Click" Text="Click here to view" />

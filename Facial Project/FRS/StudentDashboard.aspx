@@ -92,9 +92,9 @@
          <p class="text-center">
              &nbsp;</p>
     <p class="text-center">
-             <strong>
-             <asp:Label ID="Label1" runat="server" Text="Label" CssClass="auto-style1" style="font-size: medium"></asp:Label>
-             </strong>
+             <em><strong>
+             <asp:Label ID="Label1" runat="server" Text="Label" CssClass="auto-style1"></asp:Label>
+             </strong></em>
          </p>
          <p class="text-center">
              <strong>

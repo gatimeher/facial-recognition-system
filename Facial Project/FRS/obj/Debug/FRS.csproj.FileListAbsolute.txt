@@ -716,4 +716,3 @@ E:\facial project\FRS\obj\Debug\FRS.csproj.CoreCompileInputs.cache
 E:\facial project\FRS\obj\Debug\FRS.csproj.CopyComplete
 E:\facial project\FRS\obj\Debug\FRS.dll
 E:\facial project\FRS\obj\Debug\FRS.pdb
-E:\gitdemo\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache

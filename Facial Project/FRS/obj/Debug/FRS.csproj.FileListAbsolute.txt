@@ -593,7 +593,6 @@ E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\Microsoft.Co
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\registration.dll
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\registration.pdb
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.dll
 E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.pdb

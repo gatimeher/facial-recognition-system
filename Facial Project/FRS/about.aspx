@@ -137,16 +137,8 @@
 		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2 d-flex">
-    			<div class="col-md-6 align-items-stretch d-flex">
-    				<div class="img img-video d-flex align-items-center" style="background-image: url(images/about-2.jpg);">
-    					<div class="video justify-content-center">
-								<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-									<span class="ion-ios-play"></span>
-		  					</a>
-							</div>
-    				</div>
-    			</div>
-          <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
+    			
+          <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-15">
              <h2 class="mb-4">OUR MISSION</h2>
             <p>Our Mission is to create a pool of satisfied candidates by placing them in the right vertical, to create a niche of satisfied clients
                 by providing the right talent at the right time and to be among the top Key players in the recruitment field.</p>

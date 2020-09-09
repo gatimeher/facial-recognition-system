@@ -32,9 +32,6 @@
              body {
   background-color: rgb(255, 183, 131);
 }
-        .auto-style2 {
-            font-size: xx-large;
-        }
     </style>
 </head>
 <body>
@@ -95,8 +92,7 @@
 
              <font color="black">
     <form id="form1" runat="server">
-        <h1 class="auto-style1">&nbsp;</h1>
-        <h1 class="auto-style1"><strong><span class="auto-style2">Faculty Dashboard</span> </strong></h1>
+        <h1 class="auto-style1"><strong>Faculty Profile </strong></h1>
 
          <p class="text-center">
         <asp:Label ID="Label1" runat="server" CssClass="auto-style4" style="font-size: large"></asp:Label>

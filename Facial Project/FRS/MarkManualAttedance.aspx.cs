@@ -52,6 +52,15 @@ namespace FRS
             }
             
             Label1.Text = res;
+
+
+            BatchCodeDropDownList.ClearSelection();
+            StudentNameDropDownList.ClearSelection();
+            SubjectDropDownList.ClearSelection();
+            InTimeTextBox.Text = "";
+            OutTimeTextBox.Text = "";
+            DateandTimeTextBox.Text = "";
+            AttendanceDropDownList.ClearSelection();
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)

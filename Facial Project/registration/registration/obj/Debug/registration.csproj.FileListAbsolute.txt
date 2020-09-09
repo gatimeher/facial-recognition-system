@@ -24,3 +24,9 @@ C:\RashiProj\Facial Project\registration\registration\bin\Debug\registration.pdb
 C:\RashiProj\Facial Project\registration\registration\obj\Debug\registration.csproj.CoreCompileInputs.cache
 C:\RashiProj\Facial Project\registration\registration\obj\Debug\registration.dll
 C:\RashiProj\Facial Project\registration\registration\obj\Debug\registration.pdb
+E:\gitdemo\facial-recognition-system\Facial Project\registration\registration\bin\Debug\registration.dll
+E:\gitdemo\facial-recognition-system\Facial Project\registration\registration\bin\Debug\registration.pdb
+E:\gitdemo\facial-recognition-system\Facial Project\registration\registration\obj\Debug\registration.csprojAssemblyReference.cache
+E:\gitdemo\facial-recognition-system\Facial Project\registration\registration\obj\Debug\registration.csproj.CoreCompileInputs.cache
+E:\gitdemo\facial-recognition-system\Facial Project\registration\registration\obj\Debug\registration.dll
+E:\gitdemo\facial-recognition-system\Facial Project\registration\registration\obj\Debug\registration.pdb

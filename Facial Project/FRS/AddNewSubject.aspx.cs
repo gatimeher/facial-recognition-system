@@ -29,8 +29,8 @@ namespace FRS
         protected void CancelButton_Click(object sender, EventArgs e)
         {
             Response.Redirect("AddNewSubject.aspx");
-            //SubjectNameDropDownList.SelectedValue = " ";
-            //DescriptionTextBox.Text = " ";
+            SubjectNameDropDownList.SelectedValue = " ";
+            DescriptionTextBox.Text = " ";
         }
     }
 }

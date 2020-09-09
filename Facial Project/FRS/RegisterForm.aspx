@@ -142,9 +142,7 @@ input {
     <form id="form1" runat="server">
         <font color ="black">
         <div class="auto-style1">
-            <strong><span class="auto-style4">
-            <br />
-            Registration Form</span><br />
+            <strong><span class="auto-style4">Registration Form</span><br />
             </strong></font>
             <strong><span class="auto-style10">(Note: Full Name must be same as selected Faculy/Student Name)</span></strong></div>
         <font color ="black">

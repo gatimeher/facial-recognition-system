@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+
+    <meta charset="utf-8" />
+    <title>Sanp Photo</title>
+    <script>
+        var canvas, context, video, videoObj;
+        // $ is jquery function
+
+        $(document).ready(function () {
+            canvas = document.getElementById("canvas");
+            context = canvas.getContext("2d");
+          //  let video = document.querySelector("#videoElement");
+            video = document.getElementById("video");
+            let currentStream;
+            let displaySize;
+
+            if (navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(function (stream) {
+                        video.srcObject = stream;
+                    })
+                    .catch(function (err0r) {
+                        console.log("Something went wrong!");
+                    });
+            }
+        });
+
+
+        /*$(function () {
+            canvas = document.getElementById("canvas");
+            context = canvas.getContext("2d");
+            video = document.getElementById("video");
+
+
+            // different browsers provide getUserMedia() in differnt ways, so we need to consolidate
+            navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+            if (navigator.getUserMedia) {
+                navigator.getUserMedia(
+                    { video: true }, // which media
+                    function (stream) {   // success function
+                        video.src = window.URL.createObjectURL(stream);
+                        video.onloadedmetadata = function (e) {
+                            video.play();
+                        };
+                    },
+                    function (err) {  // error function
+                        console.log("The following error occured: " + err.name);
+                    }
+                );
+            }
+            else {
+                console.log("getUserMedia not supported");
+            }
+        });
+        */
+        
+        function takePhoto() {
+            context.drawImage(video, 10, 10, 400, 400);
+        }
+        function savePhoto() {
+            //alert("hello");
+
+            var data = canvas.toDataURL();
+            var Full_Name = $("#Full_Name").val();//changes
+            //var Email_ID = $("#Email_ID").val();//to retrieve data from textbox
+           // alert(Full_Name);
+            //using query to call asp.net file asynchronously from html page
+            $.ajax({
+                type: "POST",
+                url: "savephoto.aspx",
+                data: {
+                    photo: data,
+                    // Email_ID: Email_ID
+                    Full_Name: Full_Name//changes
+                }
+            }).done(function (o) {
+                alert("Photo Saved Successfully!");
+            });
+
+        }
+
+
+
+    </script>
+   
+</head>
+<body>
+
+    <br>
+
+    <a class="d-flex align-items-center justify-content-center">
+        <!---Enter Full Name  : <input type="text" name="Email_ID" id="Email_ID" />-->
+        Enter Full Name  : <input type="text" name="Full_Name" id="Full_Name" />
+        <button id="btnSnap" onclick="takePhoto()">Snap Photo</button>
+        <button id="btnSave" onclick="savePhoto()">Save Photo</button>
+        <!--<button id="btnSave" onclick="homePage.aspx">Finish</button>-->
+        <a href="finish.aspx">Finish</a>
+        <p />
+
+
+        <video src="" id="video" width="500" height="500" autoplay controls="controls"></video>
+        <canvas style="float:right" id="canvas" width="500" height="500"></canvas>
+    </a>
+   
+</body>
+</html>

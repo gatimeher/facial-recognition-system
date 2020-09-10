@@ -36,6 +36,7 @@
         }
         .auto-style2 {
             width: 70%;
+            font-size: medium;
         }
         .auto-style3 {
             font-size: medium;
@@ -43,6 +44,9 @@
         .auto-style4 {
             font-size: medium;
             color: #FF0000;
+        }
+        .auto-style5 {
+            font-size: small;
         }
     </style>
 
@@ -118,12 +122,15 @@
             <table align="center" class="auto-style2">
                 <tr>
                     <td class="auto-style3">
-                        <br />
                         Select Batch Code</td>
                     <td>
+
+        <font color ="black">
+
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:FRSDatabaseConnectionString84 %>" SelectCommand="SELECT [Batch_Code] FROM [StudentMarkManualAttendanceDB]"></asp:SqlDataSource>
+                        </font>
                         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" CssClass="auto-style3" DataSourceID="SqlDataSource1" DataTextField="Batch_Code" DataValueField="Batch_Code">
                         </asp:DropDownList>
-                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:FRSDatabaseConnectionString84 %>" SelectCommand="SELECT [Batch_Code] FROM [StudentMarkManualAttendanceDB]"></asp:SqlDataSource>
                     </td>
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="DropDownList1" CssClass="auto-style4" ErrorMessage="Please select Batch code"></asp:RequiredFieldValidator>
@@ -136,7 +143,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="auto-style3" DataSourceID="SqlDataSource2">
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="auto-style5" DataSourceID="SqlDataSource2">
                             <Columns>
                                 <asp:BoundField DataField="Batch_Code" HeaderText="Batch_Code" SortExpression="Batch_Code" />
                                 <asp:BoundField DataField="Student_Name" HeaderText="Student_Name" SortExpression="Student_Name" />
@@ -158,22 +165,7 @@
                         </asp:SqlDataSource>
                     </td>
                 </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-            </table>
+                </table>
             <br />
         </div>
     </form>

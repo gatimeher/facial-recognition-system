@@ -103,10 +103,14 @@
 <font color="black">
 
         <div class="auto-style3">
-            <strong><span class="auto-style2">&nbsp; Generate Batch Wise Attendance Report</span></strong></div>
+            <strong><span class="auto-style2">&nbsp; 
+            <br />
+            Generate Batch Wise Attendance Report<br />
+            <br />
+            </span></strong></div>
         <table align="center" class="auto-style4">
             <tr>
-                <td>Enter a Teacher Name</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter a Teacher Name</td>
                 <td>
                     <asp:DropDownList ID="SelectTeacherNameDropDownList" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Faculty_Name" DataValueField="Faculty_Name" OnSelectedIndexChanged="SelectTeacherNameDropDownList_SelectedIndexChanged">
                     </asp:DropDownList>
@@ -119,7 +123,11 @@
                     &nbsp;</td>
             </tr>
             <tr>
-                <td>Select Batch Name</td>
+                <td>
+
+<font color="black">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>Select Batch Name</td>
                 <td>
                     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource2" DataTextField="Batch_Code" DataValueField="Batch_Code" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                     </asp:DropDownList>
@@ -135,8 +143,10 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>
+                <td colspan="2">
+
+<font color="black">
+
                     <asp:GridView ID="GridView2" runat="server" OnSelectedIndexChanged="GridView2_SelectedIndexChanged">
                     </asp:GridView>
                 </td>

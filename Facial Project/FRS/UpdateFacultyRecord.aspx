@@ -103,7 +103,10 @@ body {
 
     <form id="form1" runat="server">
         <div class="auto-style1">
-            <strong>Update Faculty Record<br />
+            <strong>
+            <br />
+            Update Faculty Record<br />
+            <br />
             </strong>
         </div>
         <table align="center" class="auto-style2">

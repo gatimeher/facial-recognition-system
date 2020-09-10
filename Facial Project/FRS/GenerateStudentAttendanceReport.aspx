@@ -26,9 +26,6 @@
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
 
-        .auto-style2 {
-            font-size: x-large;
-        }
         .auto-style3 {
             text-align: center;
         }
@@ -46,6 +43,14 @@
         }
         .auto-style7 {
             color: #FF0000;
+        }
+        .auto-style8 {
+            text-align: center;
+            font-size: x-large;
+        }
+        .auto-style9 {
+            width: 226px;
+            text-align: center;
         }
     </style>
 </head>
@@ -98,7 +103,7 @@
                 <li class="nav-item "><a href="AdminDashboard.aspx" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item "><a href="AddStudent.aspx" class="nav-link pl-0">Student Details</a></li>
 	        	<li class="nav-item"><a href="UpdateStudentRecord.aspx" class="nav-link">Update Student Record</a></li>
-	        	<li class="nav-item active"><a href="GenerateStudentAttendanceReport.aspx" class="nav-link">Genrate Student Attendance Report</a></li>
+	        	<li class="nav-item active"><a href="GenerateStudentAttendanceReport.aspx" class="nav-link">Generate Student Attendance Report</a></li>
 	        	
                 <li class="nav-item"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
                 <li class="nav-item"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a></li>
@@ -114,7 +119,9 @@
 
     <form id="form1" runat="server">
         <p class="auto-style3">
-            <strong><span class="auto-style2">&nbsp; Generate Attendance Report</span></strong></p>
+            &nbsp;</p>
+        <p class="auto-style8">
+            &nbsp; Generate Attendance Report</p>
         <table align="center" class="auto-style4">
             <tr>
                 <td class="auto-style6">
@@ -122,10 +129,12 @@
                 </td>
                 <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="EnterStudentNameTextBox" runat="server" Height="23px" Width="175px" OnTextChanged="EnterStudentNameTextBox_TextChanged"></asp:TextBox>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="EnterStudentNameTextBox" CssClass="auto-style7" ErrorMessage="Enter Student Name"></asp:RequiredFieldValidator>
+                    <br />
+                    <asp:TextBox ID="EnterStudentNameTextBox" runat="server" Height="25px" Width="175px" OnTextChanged="EnterStudentNameTextBox_TextChanged"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="EnterStudentNameTextBox" CssClass="auto-style7" ErrorMessage="Enter Student Name"></asp:RequiredFieldValidator>
                 </td>
-                <td class="auto-style5">
+                <td class="auto-style9">
 
         <font color ="black">
     
@@ -171,22 +180,20 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style6">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-            </tr>
-            <tr>
                 <td class="auto-style6">
                     <asp:Label ID="SelectStartDateLabel" runat="server" Text="Select Start Date"></asp:Label>
                 </td>
                 <td>
+                    <br />
+                    <br />
                     <asp:TextBox ID="SelectStartDateTextBox" runat="server" TextMode="Date"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="SelectStartDateTextBox" CssClass="auto-style7" ErrorMessage="Select Start Date"></asp:RequiredFieldValidator>
+                    <br />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="SelectStartDateTextBox" CssClass="auto-style7" ErrorMessage="Select Start Date"></asp:RequiredFieldValidator>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                 <td class="auto-style5">
 
-        <font color ="black">
+                    <font color ="black">
     
 
 
@@ -198,17 +205,22 @@
     
 
 
+                    <br />
+    
+
+
                     <asp:TextBox ID="SelectEndDateTextBox" runat="server" TextMode="Date"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" CssClass="auto-style7" ErrorMessage="Select End Date" ControlToValidate="SelectEndDateTextBox"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
-                <td class="text-center" colspan="3">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="text-center" colspan="3">
+                <td class="text-left" colspan="3">
 
         <font color ="black">
+    
+
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
 
 

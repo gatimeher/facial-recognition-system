@@ -109,7 +109,15 @@
 	        <ul class="navbar-nav mr-auto">
                  <li class="nav-item "><a href="AdminDashboard.aspx" class="nav-link pl-0">Home</a></li>
 	        	
-	        	<li class="nav-item active"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
+	        	<li class="nav-item "><a href="AddStudent.aspx" class="nav-link pl-0">Student Details</a></li>
+	        	
+	        	<li class="nav-item"><a href="AddFaculty.aspx" class="nav-link">Faculty Details</a></li>
+	        	
+	          <li class="nav-item"><a href="BatchRegistration.aspx" class="nav-link">Batch Details</a></li>
+                
+                <li class="nav-item active"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
+                <li class="nav-item"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a></li>
+                 <li class="nav-item"><a href="FaceAttendanceReport.aspx" class="nav-link">Show Face Attendance Report</a></li>
 
                 
 	        </ul>
@@ -125,6 +133,7 @@
         <div>
             <div class="auto-style4">
                 <strong><span class="auto-style5">
+                <br />
                 Add New Subject</span></strong><br />
                 <br />
             </div>
@@ -156,7 +165,7 @@
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>Description</td>
                     <td>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="DescriptionTextBox" runat="server" TextMode="MultiLine" Height="23px" Width="175px"></asp:TextBox>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="DescriptionTextBox" runat="server" TextMode="MultiLine" Height="75px" Width="175px"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="DescriptionTextBox" ErrorMessage="Enter description of subject" CssClass="auto-style6"></asp:RequiredFieldValidator>
                     </td>
                 </tr>

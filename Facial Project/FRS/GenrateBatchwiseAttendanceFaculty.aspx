@@ -44,15 +44,9 @@
 }
         .auto-style5 {
             height: 111px;
+            text-align: center;
         }
-        .auto-style6 {
-            height: 111px;
-            width: 361px;
-        }
-        .auto-style7 {
-            width: 361px;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -115,20 +109,16 @@
              <font color="black">
 
         <div class="auto-style3">
-            <strong><span class="auto-style2">&nbsp;Generate Batch Wise Attendance Report</span></strong></div>
+            <span class="auto-style2">
+            <strong>&nbsp;<br />
+            </strong>Generate Batch Wise Attendance Report</span></div>
         <table align="center" class="auto-style4">
             <tr>
-                <td class="auto-style6">&nbsp;</td>
                 <td class="auto-style5">
                     <asp:Button ID="ShowButton" runat="server" OnClick="ShowButton_Click" Text="View Student Batch Wise Report " />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style7">&nbsp;</td>
                 <td>
                     <asp:GridView ID="GridView1" runat="server">
                     </asp:GridView>

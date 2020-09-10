@@ -106,9 +106,16 @@ body {
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
                  <li class="nav-item "><a href="AdminDashboard.aspx" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item "><a href="AddStudent.aspx" class="nav-link pl-0">Student Details</a></li>
 	        	
+	        	<li class="nav-item"><a href="AddFaculty.aspx" class="nav-link">Faculty Details</a></li>
 	        	
+	          <li class="nav-item"><a href="BatchRegistration.aspx" class="nav-link">Batch Details</a></li>
+                
+                <li class="nav-item "><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
                 <li class="nav-item active"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a></li>
+                 <li class="nav-item"><a href="FaceAttendanceReport.aspx" class="nav-link">Show Face Attendance Report</a></li>
+
 	        </ul>
 	      </div>
         </form>
@@ -118,7 +125,9 @@ body {
          <font color="black">
 
      <p class="auto-style3">
-        <strong>Mark Manual Attedance</strong></p>
+         &nbsp;</p>
+         <p class="auto-style3">
+             <strong>Mark Manual Attedance</strong></p>
     <form id="form1" runat="server">
         <table align="center" class="auto-style1">
             <tr>
@@ -258,20 +267,15 @@ body {
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">&nbsp;</td>
-                <td class="auto-style7">
-                    &nbsp;</td>
-            </tr>
-            <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style2" colspan="2">
-                    <asp:Button ID="SaveButton" runat="server" Text="Save" OnClick="SaveButton_Click" style="height: 28px" />
+                    <asp:Button ID="SaveButton" runat="server" Text="Save" OnClick="SaveButton_Click" style="height: 28px" Height="40px" Width="70px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="CancelButton" runat="server" Text="Cancel" OnClick="CancelButton_Click" />
+                    <asp:Button ID="CancelButton" runat="server" Text="Cancel" OnClick="CancelButton_Click" Height="30px" Width="70px" />
                 </td>
             </tr>
             <tr>

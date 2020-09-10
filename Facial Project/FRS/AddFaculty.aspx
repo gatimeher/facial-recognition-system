@@ -135,7 +135,9 @@ body {
 
          <font color="black">
     <p class="auto-style6">
-        <strong><span class="auto-style5" align="center">Add Faculty </span></strong></p>
+        &nbsp;</p>
+         <p class="auto-style6">
+             <strong><span class="auto-style5" align="center">Add Faculty </span></strong></p>
     <form id="form1" runat="server">
         <div>
             <table align="center" class="auto-style1">

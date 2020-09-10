@@ -108,6 +108,9 @@
                <%-- <li class="nav-item"><a href="GenrateBatchWiseAttendance.aspx" class="nav-link">Generate Batch Wise Report</a></li>--%>
                 <li class="nav-item"><a href="GenerateBatchwiseAttendanceAdmin.aspx" class="nav-link">Faculty Batch Wise Attendance Report</a></li>
                 <li class="nav-item"><a href="BatchReportWithoutfacultyAdmin.aspx" class="nav-link">Batch wise Student Attendance Report</a></li>
+                <li class="nav-item"><a href="AddNewSubject.aspx" class="nav-link">Add New Subject</a></li>
+                <li class="nav-item"><a href="MarkManualAttedance.aspx" class="nav-link">Mark Maunal Attendance</a></li>
+                 <li class="nav-item"><a href="FaceAttendanceReport.aspx" class="nav-link">Show Face Attendance Report</a></li>
 	        </ul>
 	      </div>
         </form>
@@ -116,6 +119,8 @@
 
 <font color="black">
 
+        <p class="auto-style3">
+            &nbsp;</p>
         <p class="auto-style3">
             &nbsp;<strong>Batch Registration</strong></p>
         <form id="form1" runat="server">

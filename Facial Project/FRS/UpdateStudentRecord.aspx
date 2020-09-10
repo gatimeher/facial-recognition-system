@@ -104,7 +104,9 @@
 
    <form id="form1" runat="server">
         <div class="auto-style1">
-            <strong>Update Student Record</strong></div>
+            <strong>
+            <br />
+            Update Student Record</strong></div>
         <table align="center" class="auto-style2">
             <tr>
                 <td class="auto-style3">&nbsp;</td>

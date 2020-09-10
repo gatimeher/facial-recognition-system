@@ -656,9 +656,6 @@ C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\bin\Microsoft.CodeDom.Provide
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.csproj.CopyComplete
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.dll
 C:\Users\Admin\OneDrive\Desktop\Facial Project\FRS\obj\Debug\FRS.pdb
-<<<<<<< HEAD
-E:\gitHub programs\facial-recognition-system\Facial Project\FRS\obj\Debug\FRS.csprojAssemblyReference.cache
-=======
 E:\facial project\FRS\bin\FRS.dll.config
 E:\facial project\FRS\bin\FRS.dll
 E:\facial project\FRS\bin\FRS.pdb
@@ -719,4 +716,3 @@ E:\facial project\FRS\obj\Debug\FRS.csproj.CoreCompileInputs.cache
 E:\facial project\FRS\obj\Debug\FRS.csproj.CopyComplete
 E:\facial project\FRS\obj\Debug\FRS.dll
 E:\facial project\FRS\obj\Debug\FRS.pdb
->>>>>>> 0c0821c07fa1e6a62048b75598f244e17a7b4b4e
